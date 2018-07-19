@@ -32,23 +32,36 @@ for(i in 2:length(point_dirs)){
     country_points=readOGR(shp)
     country_points$recode=recode
     proj4string(country_points) <- crs.geo
-    #0.002 decimal degrees is approx 200 meters near the equator
-    country_buffer_urban=gBuffer(subset(country_points,URBAN_RURA=="U"),width=0.02,byid=T)
-    country_buffer_rural=gBuffer(subset(country_points,URBAN_RURA=="R"),width=0.05,byid=T)
-    country_buffers=rbind(country_buffer_rural,country_buffer_urban)
     country_poly=subset(recent_dhs_1,DHSCC==dhscc)
-    merged_buffers=over(country_buffers,country_poly)
-    country_buffers$OBJECTID=merged_buffers$OBJECTID
-    country_buffers$DHSREGEN=merged_buffers$DHSREGEN
-    message(dhscc,recode,": ",sum(is.na(country_buffers$OBJECTID)))
-    # country_buffers=subset(country_buffers,!is.na(OBJECTID))
-    country_buffers=country_buffers[,wanted.names]
-    pointlist[[i-1]]=country_buffers
+    merged_points=over(country_points,country_poly)
+    country_points$OBJECTID=merged_points$OBJECTID
+    country_points$DHSREGEN=merged_points$DHSREGEN
+    message(dhscc,recode,": ",sum(is.na(country_points$OBJECTID)))
+    missingclusters=subset(country_points,is.na(OBJECTID))
+    if(nrow(missingclusters)>0){
+      for(j in 1:nrow(missingclusters)){
+        missingcluster=missingclusters[j,]
+        clust=missingcluster$DHSCLUST
+        matchingpoly=country_poly[which.min(gDistance(missingcluster,country_poly,byid=T)),]
+        if(matchingpoly$DHSREGEN=="Region 1" & matchingpoly$DHSCC=="CF"){
+          country_points$OBJECTID[which(country_points$DHSCLUST==clust)]=363
+          country_points$DHSREGEN[which(country_points$DHSCLUST==clust)]="Bangui"
+        }else{
+          country_points$OBJECTID[which(country_points$DHSCLUST==clust)]=matchingpoly$OBJECTID
+          country_points$DHSREGEN[which(country_points$DHSCLUST==clust)]=matchingpoly$DHSREGEN
+        }
+      }
+    }  
+    # country_points=subset(country_points,!is.na(OBJECTID))
+    country_points=country_points[,wanted.names]
+    pointlist[[i-1]]=country_points
   })
 }
 point.list.complete = pointlist[!sapply(pointlist, is.null)] 
 options(fill=T)
 dhs_points=do.call(rbind,point.list.complete)
-save(dhs_points,file="E:/DHS mapping/dhs_points_buffers.RData")
+dhs_points$filename=paste0(dhs_points$DHSCC,"HR",dhs_points$recode,"FL")
+save(dhs_points,file="E:/DHS mapping/dhs_points.RData")
 
-write.csv(dhs_points[,c("DHSCC","DHSYEAR","DHSCLUST","OBJECTID","DHSREGEN","DHSREGNA")],"dhspoints.csv",row.names=F,na="")
+
+write.csv(dhs_points@data[,c("DHSCC","DHSYEAR","DHSCLUST","OBJECTID","DHSREGEN","DHSREGNA","filename")],"project_data/dhspoints.csv",row.names=F,na="")
