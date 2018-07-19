@@ -6,7 +6,7 @@ lapply(list.of.packages, require, character.only=T)
 if(.Platform$OS.type == "unix"){
   prefix = "~"
 }else{
-  prefix = "C:"
+  prefix = "E:"
 }
 
 wd = paste0(prefix,"/git/p20_spatial_2018")

@@ -3,7 +3,7 @@ source("https://raw.githubusercontent.com/akmiller01/r_arc_json/master/arc_json.
 if(.Platform$OS.type == "unix"){
   prefix = "~"
 }else{
-  prefix = "C:"
+  prefix = "E:"
 }
 
 wd = paste0(prefix,"/git/p20_spatial_2018")
