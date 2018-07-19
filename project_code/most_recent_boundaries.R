@@ -24,3 +24,6 @@ recent = subset(svy_boundaries,!dup)$cc_year
 
 recent_dhs_boundaries = subset(svy_boundaries,cc_year %in% recent)
 save(recent_dhs_boundaries,file="project_data/recent_dhs_boundaries.RData")
+
+recent_dhs_1 = subset(recent_dhs_boundaries,LEVELRNK==1)
+save(recent_dhs_1,file="project_data/recent_dhs_1.RData")
