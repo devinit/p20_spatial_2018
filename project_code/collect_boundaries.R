@@ -15,7 +15,7 @@ if(!file.exists("project_data/svy_boundaries.RData") && file.exists("project_dat
   load("project_data/svy_boundaries_1.RData")
   load("project_data/svy_boundaries_2.RData")
   load("project_data/svy_boundaries_3.RData")
-  svy_boundaries = rbind(svy_boundaries_1,svy_boundaries_2,svy_boundaries3)
+  svy_boundaries = rbind(svy_boundaries_1,svy_boundaries_2,svy_boundaries_3)
   save(svy_boundaries,file="project_data/svy_boundaries.RData") 
 }
 
