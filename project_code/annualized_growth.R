@@ -133,6 +133,11 @@ data.index = 1
 for(subrdata in subrdatas){
   povcal_filename=strsplit(subrdata, "/")[[1]][4]
   RequestYear = subset(povcalcuts,filename==povcal_filename)$RequestYear
+  if(povcal_filename %in% baseline$filename){
+    period="baseline"
+  } else{
+    period="recent"
+  }
   message(povcal_filename)
   load(subrdata)
   hr=data
@@ -188,7 +193,7 @@ for(subrdata in subrdatas){
   ),by=.(OBJECTID)]
   
   regional$RequestYear = RequestYear
-  
+  regional$period= period
   data.list[[data.index]] = regional
   data.index = data.index + 1
 
@@ -196,4 +201,5 @@ for(subrdata in subrdatas){
 regionalhc<-rbindlist(data.list)
 
 
-
+regions.max=data.frame(regions[,.SD[which.max(DHSYEAR)],by=.(DHSCC)])
+regionalhcwide=reshape(regionalhc, idvar="OBJECTID", timevar="period",direction="wide")
