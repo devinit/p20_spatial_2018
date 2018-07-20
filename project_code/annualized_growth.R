@@ -203,3 +203,6 @@ regionalhc<-rbindlist(data.list)
 
 regions.max=data.frame(regions[,.SD[which.max(DHSYEAR)],by=.(DHSCC)])
 regionalhcwide=reshape(regionalhc, idvar="OBJECTID", timevar="period",direction="wide")
+wd = paste0(prefix,"/git/p20_spatial_2018")
+setwd(wd)
+write.csv(regionalhcwide,"project_data/regionswide20180720.csv",row.names=F,na="")
