@@ -139,7 +139,7 @@ for(subrdata in subrdatas){
   names(hr)[which(names(hr)=="hv005")] <- "sample.weights"
   hr$weights <- hr$sample.weights/1000000
   
-  if(is.null(hr$wealth)){
+  if(is.null(hr$hv271)){
     DHSCC=substring(povcal_filename,1,2)
     recode=substring(povcal_filename,5,6)
     wealth_filename=paste0(DHSCC,"wi",recode)
