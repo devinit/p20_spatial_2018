@@ -60,8 +60,7 @@ for(i in 2:length(point_dirs)){
 point.list.complete = pointlist[!sapply(pointlist, is.null)] 
 options(fill=T)
 dhs_points=do.call(rbind,point.list.complete)
-dhs_points$filename=paste0(dhs_points$DHSCC,"HR",dhs_points$recode,"FL")
+dhs_points$filename=paste0(dhs_points$DHSCC,"HR",dhs_points$recode,"DT")
 save(dhs_points,file="E:/DHS mapping/dhs_points.RData")
-
 
 write.csv(dhs_points@data[,c("DHSCC","DHSYEAR","DHSCLUST","OBJECTID","DHSREGEN","DHSREGNA","filename")],"project_data/dhspoints.csv",row.names=F,na="")
