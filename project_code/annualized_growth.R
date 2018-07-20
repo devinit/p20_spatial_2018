@@ -84,7 +84,7 @@ setnames(povcal,"RequestYear.min","RequestYear.max")
 latestyear=join(uniqueregions,povcal,by=c("CountryName","RequestYear.max"))
 setnames(baseline,"RequestYear.min","RequestYear")
 setnames(baseline,"filename.min","filename")
-keep=c("filename","ExtPovHC","P20Headcount")
+keep=c("filename","ExtPovHC","P20Headcount","RequestYear")
 baseline=baseline[,keep]
 setnames(latestyear,"RequestYear.max","RequestYear")
 setnames(latestyear,"filename.max","filename")
@@ -132,6 +132,7 @@ data.index = 1
 
 for(subrdata in subrdatas){
   povcal_filename=strsplit(subrdata, "/")[[1]][4]
+  RequestYear = subset(povcalcuts,filename==povcal_filename)$RequestYear
   message(povcal_filename)
   load(subrdata)
   hr=data
@@ -185,6 +186,8 @@ for(subrdata in subrdatas){
     ,ExtremeHC=weighted.mean(ext, weights, na.rm=TRUE)
     ,NP20HC=weighted.mean(np20, weights, na.rm=TRUE)
   ),by=.(OBJECTID)]
+  
+  regional$RequestYear = RequestYear
   
   data.list[[data.index]] = regional
   data.index = data.index + 1
