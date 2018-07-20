@@ -128,6 +128,7 @@ weighted.percentile <- function(x,w,prob,na.rm=TRUE){
 dhspoints=read.csv("E:/git/p20_spatial_2018/project_data/dhspoints.csv")
 setnames(dhspoints,"DHSCLUST","cluster")
 data.list = list()
+data.index = 1
 
 for(subrdata in subrdatas){
   povcal_filename=strsplit(subrdata, "/")[[1]][4]
@@ -170,6 +171,9 @@ for(subrdata in subrdatas){
     ,ExtremeHC=weighted.mean(ext, weights, na.rm=TRUE)
     ,NP20HC=weighted.mean(np20, weights, na.rm=TRUE)
   ),by=.(OBJECTID)]
+  
+  data.list[[data.index]] = regional
+  data.index = data.index + 1
 
 }
 regionalhc<-rbindlist(data.list)
