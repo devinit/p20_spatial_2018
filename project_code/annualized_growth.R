@@ -138,8 +138,18 @@ for(subrdata in subrdatas){
   #Rename sample.weights var
   names(hr)[which(names(hr)=="hv005")] <- "sample.weights"
   hr$weights <- hr$sample.weights/1000000
+
+  DHSCC=substring(povcal_filename,1,2)
+  recode=substring(povcal_filename,5,6)
+  wealth_filename=paste0(DHSCC,"wi",recode)
+  wealth_filepath=paste0("E:/DHSauto//",toupper(wealth_filename),"DT/",tolower(wealth_filename),"fl.RData")
+  load(wealth_filepath)
+  setnames(data, "whhid","hhid")
+  hr=join(hr,data,by=c("hhid"))
+  
   names(hr)[which(names(hr)=="hv271")] <- "wealth"
   hr$wealth <- hr$wealth/100000
+  
   
   #Rename urban var
   names(hr)[which(names(hr)=="hv025")] <- "urban.rural"
