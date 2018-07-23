@@ -1,4 +1,4 @@
-list.of.packages <- c("data.table","readr","plyr")
+list.of.packages <- c("data.table","readr","plyr","reshape")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
@@ -133,11 +133,6 @@ data.index = 1
 for(subrdata in subrdatas){
   povcal_filename=strsplit(subrdata, "/")[[1]][4]
   RequestYear = subset(povcalcuts,filename==povcal_filename)$RequestYear
-  if(povcal_filename %in% baseline$filename){
-    period="baseline"
-  } else{
-    period="recent"
-  }
   message(povcal_filename)
   load(subrdata)
   hr=data
@@ -193,16 +188,16 @@ for(subrdata in subrdatas){
   ),by=.(OBJECTID)]
   
   regional$RequestYear = RequestYear
-  regional$period= period
   data.list[[data.index]] = regional
   data.index = data.index + 1
 
 }
 regionalhc<-rbindlist(data.list)
 
+regionalhc = regionalhc[order(regionalhc$OBJECTID,regionalhc$RequestYear),]
+regionalhc$time = duplicated(regionalhc$OBJECTID)*1
 
-regions.max=data.frame(regions[,.SD[which.max(DHSYEAR)],by=.(DHSCC)])
-regionalhcwide=reshape(regionalhc, idvar="OBJECTID", timevar="period",direction="wide")
+regionalhcwide=reshape(regionalhc, idvar="OBJECTID", timevar="time",direction="wide")
 wd = paste0(prefix,"/git/p20_spatial_2018")
 setwd(wd)
 write.csv(regionalhcwide,"project_data/regionswide20180720.csv",row.names=F,na="")
