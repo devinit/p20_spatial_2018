@@ -1,4 +1,4 @@
-list.of.packages <- c("data.table","readr","plyr","reshape")
+list.of.packages <- c("data.table","readr","plyr","reshape","varhandle")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
@@ -37,6 +37,34 @@ setnames(regions.max,"filename","filename.max")
 uniqueregions=merge(regions.min,regions.max)
 uniqueregions=subset(uniqueregions, !(RequestYear.min==RequestYear.max))
 uniqueregions=uniqueregions[which(uniqueregions$RequestYear.max>=2010),]
+
+filename.remapping=list(
+  "ZWHR72DT"="ZWHR71DT"
+ ,"AOHR52DT"="AOHR51DT"
+ ,"BJHR42DT"="BJHR41DT"
+ ,"BUHR71DT"="BUHR70DT"
+ ,"CDHR52DT"="CDHR50DT"
+ ,"CMHR42DT"="CMHR44DT"
+ # ,"EGHR42DT"="EGHR41DT"
+ ,"LSHR42DT"="LSHR41DT"
+ ,"MDHR53DT"="MDHR51DT"
+ ,"MZHR52DT"="MZHR51DT"
+ ,"NMHR42DT"="NMHR41DT"
+ ,"SLHR53DT"="SLHR51DT"
+ ,"TLHR62DT"="TLHR61DT"
+ ,"ZMHR52DT"="ZMHR51DT"
+)
+filename.remapping.names=names(filename.remapping)
+uniqueregions$filename.max=unfactor(uniqueregions$filename.max)
+uniqueregions$filename.min=unfactor(uniqueregions$filename.min)
+for(from.remap in filename.remapping.names){
+  to.remap=filename.remapping[[from.remap]]
+  uniqueregions$filename.max[which(uniqueregions$filename.max==from.remap)]=to.remap
+  uniqueregions$filename.min[which(uniqueregions$filename.min==from.remap)]=to.remap
+}
+
+
+
 
 uniqueregions$CountryName=NA
 uniqueregions$CountryName[which(uniqueregions$DHSCC=="AL")]="Albania"
@@ -126,6 +154,11 @@ weighted.percentile <- function(x,w,prob,na.rm=TRUE){
 
 
 dhspoints=read.csv("E:/git/p20_spatial_2018/project_data/dhspoints.csv")
+dhspoints$filename=unfactor(dhspoints$filename)
+for(from.remap in filename.remapping.names){
+  to.remap=filename.remapping[[from.remap]]
+  dhspoints$filename[which(dhspoints$filename==from.remap)]=to.remap
+}
 setnames(dhspoints,"DHSCLUST","cluster")
 data.list = list()
 data.index = 1
@@ -143,12 +176,16 @@ for(subrdata in subrdatas){
   if(is.null(hr$hv271)){
     DHSCC=substring(povcal_filename,1,2)
     recode=substring(povcal_filename,5,6)
+   
     wealth_filename=paste0(DHSCC,"wi",recode)
     wealth_filepath=paste0("E:/DHSauto//",toupper(wealth_filename),"DT/",tolower(wealth_filename),"fl.RData")
     load(wealth_filepath)
     setnames(data, "whhid","hhid")
     if("wlthindf" %in% names(data)){
       setnames(data,"wlthindf","hv271")
+    }
+    if(DHSCC=="EG" & recode=="42"){
+      data$hhid=trimws(data$hhid)
     }
     hr=join(hr,data,by=c("hhid"))
   }
@@ -180,6 +217,7 @@ for(subrdata in subrdatas){
   hr$np20<- (hr$wealth < povperc[3])
   datapoints=dhspoints[which(dhspoints$filename==povcal_filename),]
   hr=join(hr,datapoints,by=c("cluster"))
+
   
   regional=data.table(hr)[,.(
     P20HC=weighted.mean(p20, weights, na.rm=TRUE)
@@ -187,6 +225,8 @@ for(subrdata in subrdatas){
     ,NP20HC=weighted.mean(np20, weights, na.rm=TRUE)
   ),by=.(OBJECTID)]
   
+  DHSCC=substring(povcal_filename,1,2)
+  regional$DHSCC=DHSCC
   regional$RequestYear = RequestYear
   data.list[[data.index]] = regional
   data.index = data.index + 1
@@ -197,7 +237,12 @@ regionalhc<-rbindlist(data.list)
 regionalhc = regionalhc[order(regionalhc$OBJECTID,regionalhc$RequestYear),]
 regionalhc$time = duplicated(regionalhc$OBJECTID)*1
 
-regionalhcwide=reshape(regionalhc, idvar="OBJECTID", timevar="time",direction="wide")
+regionalhcwide=reshape(regionalhc, idvar=c("OBJECTID","DHSCC"), timevar="time",direction="wide")
+#In Egypt DHS 2014 the Sinai Pennisula (called Frontier Governates) was excluded. We have dropped this portion from the analysis.
+regionalhcwide=regionalhcwide[complete.cases(regionalhcwide),]
+
 wd = paste0(prefix,"/git/p20_spatial_2018")
 setwd(wd)
+
+
 write.csv(regionalhcwide,"project_data/regionswide20180720.csv",row.names=F,na="")
