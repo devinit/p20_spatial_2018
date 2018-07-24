@@ -41,17 +41,47 @@ uniqueregions=uniqueregions[which(uniqueregions$RequestYear.max>=2010),]
 filename.remapping=list(
   "ZWHR72DT"="ZWHR71DT"
  ,"AOHR52DT"="AOHR51DT"
+ ,"BFHR32DT"="BFHR31DT"
+ ,"BFHR71DT"="BFHR70DT"
  ,"BJHR42DT"="BJHR41DT"
+ ,"BDHR42DT"="BDHR41DT"
+ ,"BDHR71DT"="BDHR72DT"
  ,"BUHR71DT"="BUHR70DT"
  ,"CDHR52DT"="CDHR50DT"
  ,"CMHR42DT"="CMHR44DT"
  # ,"EGHR42DT"="EGHR41DT"
+ ,"ETHR42DT"="ETHR41DT"
+ ,"ETHR71DT"="ETHR70DT"
+ ,"GNHR42DT"="GNHR41DT"
+ ,"GNHR61DT"="GNHR62DT"
+ ,"JOHR43DT"="JOHR42DT"
+ ,"JOHR6ADT"="JOHR6CDT"
+ ,"KEHR43DT"="KEHR42DT"
+ ,"KEHR7ADT"="KEHR7HDT"
+ ,"KHHR43DT"="KHHR42DT"
+ ,"KHHR71DT"="KHHR73DT"
+ ,"LBHR52DT"="LBHR51DT"
+ ,"LBHR71DT"="LBHR70DT"
  ,"LSHR42DT"="LSHR41DT"
  ,"MDHR53DT"="MDHR51DT"
+ ,"MLHR42DT"="MLHR41DT"
+ ,"MLHR71DT"="MLHR70DT"
+ ,"MWHR43DT"="MWHR41DT"
+ ,"MWHR7IDT"="MWHR7QDT"
  ,"MZHR52DT"="MZHR51DT"
  ,"NMHR42DT"="NMHR41DT"
+ ,"NPHR42DT"="NPHR41DT"
+ ,"NPHR7ADT"="NPHR7HDT"
+ ,"RWHR54DT"="RWHR53DT"
+ ,"RWHR72DT"="RWHR70DT"
+ ,"SNHR4BDT"="SNHR4HDT"
+ ,"SNHR7IDT"="SNHR7HDT"
  ,"SLHR53DT"="SLHR51DT"
  ,"TLHR62DT"="TLHR61DT"
+ ,"TZHR43DT"="TZHR41DT"
+ ,"TZHR7ADT"="TZHR7HDT"
+ ,"UGHR43DT"="UGHR41DT"
+ ,"UGHR7ADT"="UGHR7HDT"
  ,"ZMHR52DT"="ZMHR51DT"
 )
 filename.remapping.names=names(filename.remapping)
@@ -176,8 +206,13 @@ for(subrdata in subrdatas){
   if(is.null(hr$hv271)){
     DHSCC=substring(povcal_filename,1,2)
     recode=substring(povcal_filename,5,6)
-   
     wealth_filename=paste0(DHSCC,"wi",recode)
+    if(DHSCC %in% c("JO","KH")){
+      wealth_filename=paste0(DHSCC,"wi41")
+    }
+    if(DHSCC %in% c("ML","MW")){
+      wealth_filename=paste0(DHSCC,"wi42")
+    }
     wealth_filepath=paste0("E:/DHSauto//",toupper(wealth_filename),"DT/",tolower(wealth_filename),"fl.RData")
     load(wealth_filepath)
     setnames(data, "whhid","hhid")
@@ -244,5 +279,12 @@ regionalhcwide=regionalhcwide[complete.cases(regionalhcwide),]
 wd = paste0(prefix,"/git/p20_spatial_2018")
 setwd(wd)
 
+regionalhcwide$P20growthrate=((regionalhcwide$P20HC.1-regionalhcwide$P20HC.0)/regionalhcwide$P20HC.0)/(regionalhcwide$RequestYear.1-regionalhcwide$RequestYear.0)
+regionalhcwide$ext.growthrate=((regionalhcwide$ExtremeHC.1-regionalhcwide$ExtremeHC.0)/regionalhcwide$ExtremeHC.0)/(regionalhcwide$RequestYear.1-regionalhcwide$RequestYear.0)
+regionalhcwide$NP20growthrate=((regionalhcwide$NP20HC.1-regionalhcwide$NP20HC.0)/regionalhcwide$NP20HC.0)/(regionalhcwide$RequestYear.1-regionalhcwide$RequestYear.0)
+
+regionalhcwide$P20growthrate[which(!is.finite(regionalhcwide$P20growthrate))]=NA
+regionalhcwide$ext.growthrate[which(!is.finite(regionalhcwide$ext.growthrate))]=NA
+regionalhcwide$NP20growthrate[which(!is.finite(regionalhcwide$NP20growthrate))]=NA
 
 write.csv(regionalhcwide,"project_data/regionswide20180720.csv",row.names=F,na="")
