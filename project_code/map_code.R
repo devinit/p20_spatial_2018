@@ -18,7 +18,7 @@ growthrates=read.csv("project_data/regionswide20180720.csv",as.is=T)
 load("project_data/recent_dhs_1.RData")
 
 dhs_growth=merge(recent_dhs_1,growthrates,by=c("OBJECTID","DHSCC"))
-dhs_growth=subset(dhs_growth,!is.na(NP20HC.0))
+# dhs_growth=subset(dhs_growth,!is.na(NP20HC.0))
 
 layers=list(
   "Extreme Poverty Growth Rate"="ext.growthrate"
@@ -89,6 +89,6 @@ m=leaflet(data=dhs_growth) %>%
   
 m=m %>%  addLegend("bottomright", pal=pal, values = dhs_growth@data[,(varname),with=F][[1]], opacity = 1, title=layername)
       
-   filename=paste0("E:/git/p20_spatial_2018/graphics/",layername,".html") 
+   filename=paste0(prefix,"/git/p20_spatial_2018/graphics/",layername,".html") 
 try({mapshot(m,file=filename)})
 }
