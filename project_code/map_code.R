@@ -18,7 +18,7 @@ growthrates=read.csv("project_data/regionswide20180720.csv",as.is=T)
 load("project_data/recent_dhs_1.RData")
 
 dhs_growth=merge(recent_dhs_1,growthrates,by=c("OBJECTID","DHSCC"))
-dhs_growth=subset(dhs_growth,!is.na(RequestYear.0) & !is.na(RequestYear.1))
+dhs_growth=subset(dhs_growth,!is.na(RequestYear.0) | !is.na(RequestYear.1))
 
 layers=list(
   "Extreme Poverty Growth Rate"="ext.growthrate"
