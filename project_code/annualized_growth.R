@@ -148,6 +148,9 @@ setnames(latestyear,"RequestYear.max","RequestYear")
 setnames(latestyear,"filename.max","filename")
 latestyear=latestyear[,keep]
 povcalcuts=rbind(baseline,latestyear)
+povcalcuts$DHSCC=substring(povcalcuts$filename,1,2)
+povcalcuts = povcalcuts[order(povcalcuts$DHSCC,povcalcuts$RequestYear),]
+povcalcuts$time = duplicated(povcalcuts$DHSCC)*1
 
 setwd("E:/DHSauto")
 dir <-"E:/DHSauto/"
@@ -196,6 +199,7 @@ data.index = 1
 for(subrdata in subrdatas){
   povcal_filename=strsplit(subrdata, "/")[[1]][4]
   RequestYear = subset(povcalcuts,filename==povcal_filename)$RequestYear
+  Timeperiod = subset(povcalcuts,filename==povcal_filename)$time
   message(povcal_filename)
   load(subrdata)
   hr=data
@@ -263,18 +267,18 @@ for(subrdata in subrdatas){
   DHSCC=substring(povcal_filename,1,2)
   regional$DHSCC=DHSCC
   regional$RequestYear = RequestYear
+  regional$time= Timeperiod
   data.list[[data.index]] = regional
   data.index = data.index + 1
 
 }
 regionalhc<-rbindlist(data.list)
 
-regionalhc = regionalhc[order(regionalhc$OBJECTID,regionalhc$RequestYear),]
-regionalhc$time = duplicated(regionalhc$OBJECTID)*1
+
 
 regionalhcwide=reshape(regionalhc, idvar=c("OBJECTID","DHSCC"), timevar="time",direction="wide")
-#In Egypt DHS 2014 the Sinai Pennisula (called Frontier Governates) was excluded. We have dropped this portion from the analysis.
-regionalhcwide=regionalhcwide[complete.cases(regionalhcwide),]
+# #In Egypt DHS 2014 the Sinai Pennisula (called Frontier Governates) was excluded. We have dropped this portion from the analysis.
+# regionalhcwide=regionalhcwide[complete.cases(regionalhcwide),]
 
 wd = paste0(prefix,"/git/p20_spatial_2018")
 setwd(wd)
