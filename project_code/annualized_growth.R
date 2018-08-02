@@ -37,6 +37,8 @@ setnames(regions.max,"filename","filename.max")
 uniqueregions=merge(regions.min,regions.max)
 uniqueregions=subset(uniqueregions, !(RequestYear.min==RequestYear.max))
 uniqueregions=uniqueregions[which(uniqueregions$RequestYear.max>=2010),]
+uniqueregions=uniqueregions[which(uniqueregions$RequestYear.min<2010),]
+
 
 filename.remapping=list(
   "ZWHR72DT"="ZWHR71DT"
@@ -165,7 +167,7 @@ weighted.percentile <- function(x,w,prob,na.rm=TRUE){
   if(na.rm){
     df <- df[which(complete.cases(df)),]
   }
-  #Sort
+  #Sort 
   df <- df[order(df$x),]
   sumw <- sum(df$w)
   df$cumsumw <- cumsum(df$w)
@@ -262,6 +264,7 @@ for(subrdata in subrdatas){
     P20HC=weighted.mean(p20, weights, na.rm=TRUE)
     ,ExtremeHC=weighted.mean(ext, weights, na.rm=TRUE)
     ,NP20HC=weighted.mean(np20, weights, na.rm=TRUE)
+    ,weights=sum(weights,na.rm=T)
   ),by=.(OBJECTID)]
   
   DHSCC=substring(povcal_filename,1,2)
@@ -291,4 +294,11 @@ regionalhcwide$P20growthrate[which(!is.finite(regionalhcwide$P20growthrate))]=NA
 regionalhcwide$ext.growthrate[which(!is.finite(regionalhcwide$ext.growthrate))]=NA
 regionalhcwide$NP20growthrate[which(!is.finite(regionalhcwide$NP20growthrate))]=NA
 
-write.csv(regionalhcwide,"project_data/regionswide20180720.csv",row.names=F,na="")
+write.csv(regionalhcwide,"project_data/regionswide20180802.csv",row.names=F,na="")
+
+
+load("project_data/recent_dhs_1.RData")
+regionnames=recent_dhs_1@data[,c("OBJECTID","DHSREGEN","CNTRYNAMEE"),with=F]
+regionalhcwide=join(regionalhcwide,regionnames,by="OBJECTID")
+
+write.csv(regionalhcwide,"project_data/regionswide20180802.csv",row.names=F,na="")
