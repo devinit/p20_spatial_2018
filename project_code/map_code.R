@@ -90,7 +90,7 @@ m=leaflet(data=dhs_growth) %>%
   }
 
   
-m=m %>%  addLegend("bottomright", pal=pal, values = dhs_growth@data[,(varname),with=F][[1]], opacity = 1, title=layername)
+m=m %>%  addLegend("bottomright", pal=pal, values = dhs_growth@data[,(varname),with=F][[1]], opacity = 1, title=layername,labFormat = labelFormat(suffix="%"))
       
    filename=paste0(prefix,"/git/p20_spatial_2018/graphics/",layername,".html") 
 try({mapshot(m,file=filename)})
