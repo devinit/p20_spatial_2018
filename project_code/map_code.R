@@ -1,4 +1,4 @@
-list.of.packages <- c("sp","rgdal","leaflet","data.table","mapview")
+list.of.packages <- c("sp","rgdal","leaflet","data.table","mapview","ggplot2","RColorBrewer")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
@@ -33,6 +33,34 @@ layers=list(
 )
 layernames=names(layers)
 
+url <- "http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip"
+
+tmp <- tempdir()
+
+file <- basename(url)
+
+if(!file.exists(file)){
+  download.file(url, file)
+}
+unzip(file, exdir = tmp)
+
+countries <- readOGR(dsn = tmp, 
+                     layer = "ne_50m_admin_0_countries", 
+                     encoding = "UTF-8",
+                     verbose = FALSE)
+
+countries.f=fortify(countries)
+basemap= ggplot(countries.f)+
+  geom_polygon(aes(long,lat,group=group,color="dimgrey",fill="grey",size=0.02))+
+  scale_color_identity()+
+  scale_fill_identity()+
+  scale_size_identity()+
+  expand_limits(x=countries.f$long,y=countries.f$lat)+
+  theme_classic()+
+  theme(axis.line = element_blank(),axis.text=element_blank(),axis.ticks = element_blank())+
+  labs(x="",y="")
+ggsave("eps/basemap.png",basemap,device="png",width=10,height=6)
+ggsave("eps/basemap.eps",basemap,device="eps",width=10,height=6)
 
 for(layername in layernames){
   varname=layers[[layername]]
@@ -94,4 +122,23 @@ m=m %>%  addLegend("bottomright", pal=pal, values = dhs_growth@data[,(varname),w
       
    filename=paste0(prefix,"/git/p20_spatial_2018/graphics/",layername,".html") 
 try({mapshot(m,file=filename)})
-}
+dhs_growth.f=fortify(dhs_growth,region="OBJECTID")
+setnames(dhs_growth.f,"id","OBJECTID")
+dhs_growth.f=merge(dhs_growth.f, dhs_growth, by=c("OBJECTID"))
+dhs_growth.f$color=pal(dhs_growth.f[,(varname)])
+overlay=ggplot(dhs_growth.f)+
+  geom_polygon( aes(x=long,y=lat,group=group,fill=color,color="grey",size=0.02))+
+  scale_color_identity()+
+  scale_fill_identity()+
+  scale_size_identity()+
+  expand_limits(x=countries.f$long,y=countries.f$lat)+
+  theme_classic()+
+  theme(axis.line = element_blank(),axis.text=element_blank(),axis.ticks = element_blank())+
+  labs(x="",y="")
+  ggsave(paste0("eps/",varname,".png"),overlay,device="png",width=10,height=6)
+  ggsave(paste0("eps/",varname,".eps"),overlay,device="eps",width=10,height=6)
+   }
+
+
+
+
