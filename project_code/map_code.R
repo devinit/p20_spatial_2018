@@ -37,11 +37,14 @@ layernames=names(layers)
 for(layername in layernames){
   varname=layers[[layername]]
   dhs_growth@data[,(varname)]=dhs_growth@data[,(varname),with=F][[1]]*100
-  
+  palbins=quantile(dhs_growth@data[,(varname),with=F],probs=seq(0,1,0.2),na.rm=T)
+  palbins[1]=floor(palbins[1])
+  palbins[length(palbins)]=ceiling(palbins[length(palbins)])
+  palbins=round(palbins)
   pal <- colorBin(
     palette = "YlOrRd",
     domain = dhs_growth@data[,(varname),with=F]
-    ,bins=quantile(dhs_growth@data[,(varname),with=F],probs=seq(0,1,0.2),na.rm=T)
+    ,bins=palbins
   )
 
 
