@@ -158,10 +158,12 @@ africaext=ggplot(allshapes2)+
   labs(x="",y="")
 ggsave("eps/africa.sub.ext.png",africaext,device="png",width=5,height=3)
 ggsave("eps/africa.sub.ext.eps",africaext,device="eps",width=5,height=3)
+ggsave("eps/africa.sub.ext.svg",africaext,device="svg",width=25,height=15)
 
 
 ggsave("E:/git/p20_spatial_2018/eps/africamaplb.png",africamap,device="png",width=5,height=3)
 ggsave("E:/git/p20_spatial_2018/eps/africamaplb.eps",africamap,device="eps",width=5,height=3)
+ggsave("E:/git/p20_spatial_2018/eps/africamaplb.svg",africamap,device="svg",width=25,height=15)
 
   
 
