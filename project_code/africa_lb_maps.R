@@ -165,11 +165,14 @@ ggsave("E:/git/p20_spatial_2018/eps/africamaplb.png",africamap,device="png",widt
 ggsave("E:/git/p20_spatial_2018/eps/africamaplb.eps",africamap,device="eps",width=5,height=3)
 ggsave("E:/git/p20_spatial_2018/eps/africamaplb.svg",africamap,device="svg",width=25,height=15)
 
-  
-
-
-  
-
-
+#Creating csv for public
+dhs_growth.2=dhs_growth.f[,c("id","CNTRYNAMEE","DHSREGEN","long","lat")]
+allshapes=join(allshapes,dhs_growth.2, by=c("id","long","lat"))
+tab_for_one_point_six=data.table(allshapes[which(allshapes$lat>-36 & allshapes$lat<36 & allshapes$long>-25 & allshapes$long<58)])[,.(
+  extreme_poverty_rate=mean(ExtremeHC.1)
+  ,left_behind=mean(LB)
+), by=c("CNTRYNAMEE",
+        "DHSREGEN")]
+write.csv(tab_for_one_point_six,"project_data/table_one_point_six_ITEP_2018.csv",row.names=F,na="")
 
 
