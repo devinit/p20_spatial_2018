@@ -186,7 +186,7 @@ weighted.percentile <- function(x,w,prob,na.rm=TRUE){
 }
 
 
-dhspoints=read.csv("E:/git/p20_spatial_2018/project_data/dhspoints.csv")
+dhspoints=read.csv("E:/git/p20_spatial_2018/project_data/dhspoints_latlong.csv")
 dhspoints$filename=unfactor(dhspoints$filename)
 for(from.remap in filename.remapping.names){
   to.remap=filename.remapping[[from.remap]]
@@ -247,8 +247,8 @@ for(subrdata in subrdatas){
   }
   names(hr)[which(names(hr)=="hvidx")] <- "line"
   #povcalcuts
-  povcalcut <- subset(povcalcuts,filename==povcal_filename)$P20Headcount/100
-  extcut <- subset(povcalcuts,filename==povcal_filename)$ExtPovHC/100
+  povcalcut <- subset(povcalcuts,filename==povcal_filename)$P20Headcount
+  extcut <- subset(povcalcuts,filename==povcal_filename)$ExtPovHC
   cuts <- c(povcalcut,extcut,.2)
   povperc <- weighted.percentile(hr$wealth,hr$weights,prob=cuts)
   hr$p20 <- (hr$wealth < povperc[1])
@@ -263,7 +263,9 @@ for(subrdata in subrdatas){
     ,ExtremeHC=weighted.mean(ext, weights, na.rm=TRUE)
     ,NP20HC=weighted.mean(np20, weights, na.rm=TRUE)
     ,weights=sum(weights,na.rm=T)
-  ),by=.(OBJECTID)]
+    ,lat=mean(LATNUM)
+    ,long=mean(LONGNUM)
+  ),by=c("cluster","OBJECTID")]
   
   DHSCC=substring(povcal_filename,1,2)
   regional$DHSCC=DHSCC
@@ -284,6 +286,6 @@ setwd(wd)
 
 load("project_data/recent_dhs_1.RData")
 regionnames=recent_dhs_1@data[,c("OBJECTID","DHSREGEN","CNTRYNAMEE"),with=F]
-regionalhc=join(regionalhc,regionnames,by="OBJECTID")
+regionalhc=join(regionalhc,regionnames,by=c("OBJECTID"))
 
-write.csv(regionalhc,"project_data/recent_region.csv",row.names=F,na="")
+write.csv(regionalhc,"project_data/recent_cluster.csv",row.names=F,na="")
