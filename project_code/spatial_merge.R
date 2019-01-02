@@ -64,3 +64,4 @@ dhs_points$filename=paste0(dhs_points$DHSCC,"HR",dhs_points$recode,"DT")
 save(dhs_points,file="E:/DHS mapping/dhs_points.RData")
 
 write.csv(dhs_points@data[,c("DHSCC","DHSYEAR","DHSCLUST","OBJECTID","DHSREGEN","DHSREGNA","filename")],"project_data/dhspoints.csv",row.names=F,na="")
+write.csv(dhs_points@data[,c("DHSCC","DHSYEAR","DHSCLUST","OBJECTID","DHSREGEN","DHSREGNA","LATNUM","LONGNUM","filename")],"project_data/dhspoints_latlong.csv",row.names=F,na="")
