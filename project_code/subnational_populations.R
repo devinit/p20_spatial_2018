@@ -86,5 +86,3 @@ regionalhc2$region=paste0(regionalhc2$DHSREGEN,", ",regionalhc2$country)
 regionalhc2=regionalhc2[,c("region","poorpop","totalpop","regionpop","OBJECTID")]
 
 write.csv(regionalhc2,"E:/git/p20_spatial_2018/project_data/recent_regional_poor_pop.csv",row.names=F,na="")
-
-
