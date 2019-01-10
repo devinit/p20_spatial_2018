@@ -294,11 +294,11 @@ regionalhcwide$P20growthrate[which(!is.finite(regionalhcwide$P20growthrate))]=NA
 regionalhcwide$ext.growthrate[which(!is.finite(regionalhcwide$ext.growthrate))]=NA
 regionalhcwide$NP20growthrate[which(!is.finite(regionalhcwide$NP20growthrate))]=NA
 
-write.csv(regionalhcwide,"project_data/regionswide20180802.csv",row.names=F,na="")
+write.csv(regionalhcwide,"project_data/regionswide.csv",row.names=F,na="")
 
 
 load("project_data/recent_dhs_1.RData")
 regionnames=recent_dhs_1@data[,c("OBJECTID","DHSREGEN","CNTRYNAMEE"),with=F]
 regionalhcwide=join(regionalhcwide,regionnames,by="OBJECTID")
 
-write.csv(regionalhcwide,"project_data/regionswide20180802.csv",row.names=F,na="")
+write.csv(regionalhcwide,"project_data/regionswide.csv",row.names=F,na="")

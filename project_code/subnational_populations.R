@@ -16,7 +16,7 @@ merge.WDI = function(df,indicator,varname,start=1960,end=2018){
   return(df)
 }
 
-regionalhc=read.csv("project_data/regionswide20180802.csv")
+regionalhc=read.csv("project_data/regionswide.csv")
 
 countryweights=data.table(regionalhc)[,.(
       national.weights.1=sum(weights.1, na.rm=T)
