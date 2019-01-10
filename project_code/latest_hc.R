@@ -141,7 +141,7 @@ regions$CountryName[which(regions$DHSCC=="ZM")]="Zambia"
 regions$CountryName[which(regions$DHSCC=="ZW")]="Zimbabwe"
 
 
-povcal=read.csv("C:/Users/Zach/Documents/Poverty data/P20incometrends20180709.csv")
+povcal=read.csv("E:/git/poverty_trends/data/P20incometrends.csv")
 povcal=povcal[,c("CountryName","RequestYear","ExtPovHC","P20Headcount")]
 
 povcalcuts=join(regions,povcal,by=c("CountryName","RequestYear"))

@@ -1,557 +1,557 @@
 "region","poorpop","totalpop","regionpop","OBJECTID"
-"Central, Albania",0,2880703,1287627,12
-"Mountain, Albania",128,2880703,247141,13
-"Coastal, Albania",0,2880703,851223,11
-"Tirana, Albania",0,2880703,494712,14
-"Yerevan, Armenia",0,2916950,916466,4333
-"Aragatsotn, Armenia",0,2916950,142889,4332
-"Ararat, Armenia",0,2916950,251945,4334
-"Armavir, Armenia",0,2916950,233824,4335
-"Gegharkunik, Armenia",478,2916950,222222,4336
-"Lori, Armenia",0,2916950,238517,4337
-"Kotayk, Armenia",0,2916950,295287,4338
-"Shirak, Armenia",0,2916950,253244,4339
-"Syunik, Armenia",0,2916950,165654,4340
-"Vayots Dzor, Armenia",0,2916950,61774,4341
-"Tavush, Armenia",0,2916950,135128,4342
-"Benguela        , Angola",2514,27859305,2343418,4294
-"Lunda Sul       , Angola",0,27859305,493118,4286
-"Luanda          , Angola",0,27859305,8527197,4284
-"Cuando Cubango  , Angola",0,27859305,610309,4281
-"Namibe          , Angola",8485,27859305,351387,4288
-"Cabinda         , Angola",0,27859305,687652,4293
-"Cuanza Sul      , Angola",0,27859305,2358169,4283
-"Malanje         , Angola",0,27859305,1142594,4292
-"Huíla           , Angola",18675,27859305,2312240,4280
-"Lunda Norte     , Angola",0,27859305,852910,4285
-"Huambo          , Angola",0,27859305,1989678,4279
-"Moxico          , Angola",0,27859305,764443,4287
-"Zaire           , Angola",0,27859305,593306,4290
-"Bié             , Angola",0,27859305,1461183,4277
-"Bengo           , Angola",261,27859305,385942,4291
-"Cuanza Norte    , Angola",0,27859305,473189,4282
-"Cunene          , Angola",46272,27859305,947440,4278
-"Uíge            , Angola",0,27859305,1565132,4289
-"Barisal, Bangladesh",6689,161200886,9983499,3952
-"Chittagong, Bangladesh",0,161200886,28864274,3953
-"Dhaka, Bangladesh",52960,161200886,56341201,3954
-"Khulna, Bangladesh",26769,161200886,16638523,3956
-"Rajshahi, Bangladesh",34699,161200886,19985598,3955
-"Rangpur, Bangladesh",79210,161200886,18853669,3957
-"Sylhet, Bangladesh",42397,161200886,10534121,3958
-"Boucle du Mouhoun, Burkina Faso",0,18110624,1797223,237
-"Cascades, Burkina Faso",0,18110624,569166,238
-"Centre, Burkina Faso",0,18110624,2551424,239
-"Centre-Est, Burkina Faso",0,18110624,1306256,240
-"Sud-Ouest, Burkina Faso",0,18110624,1069348,249
-"Centre-Nord, Burkina Faso",10373,18110624,1382013,241
-"Centre-Ouest, Burkina Faso",0,18110624,1298110,242
-"Centre-Sud, Burkina Faso",0,18110624,673921,243
-"Est, Burkina Faso",40512,18110624,1388137,244
-"Hauts-Bassins, Burkina Faso",0,18110624,2531984,245
-"Nord, Burkina Faso",0,18110624,1529040,246
-"Plateau Central, Burkina Faso",0,18110624,743327,247
-"Sahel, Burkina Faso",24472,18110624,1270674,248
-"Alibori, Benin",9196,10575952,520139,3560
-"Atacora, Benin",21401,10575952,759170,3561
-"Atlantique, Benin",373,10575952,1403488,3562
-"Mono, Benin",0,10575952,691716,3568
-"Borgou, Benin",13468,10575952,775618,3563
-"Collines, Benin",3890,10575952,776752,3564
-"Couffo, Benin",1081,10575952,722456,3565
-"Donga, Benin",2005,10575952,378128,3566
-"Littoral, Benin",0,10575952,1515645,3567
-"Oueme, Benin",0,10575952,1316676,3569
-"Plateau, Benin",326,10575952,667992,3570
-"Zou, Benin",311,10575952,1048174,3571
-"Chuquisaca, Bolivia",1555,10724705,670853,175
-"La Paz, Bolivia",0,10724705,3314060,176
-"Cochabamba, Bolivia",1946,10724705,1965165,177
-"Santa Cruz, Bolivia",308,10724705,2146164,181
-"Oruro, Bolivia",0,10724705,649357,178
-"Potosi, Bolivia",2907,10724705,1116963,179
-"Tarija, Bolivia",0,10724705,494189,180
-"Beni, Bolivia",0,10724705,308164,182
-"Pando, Bolivia",0,10724705,59791,183
-"Cankuzo , Burundi",1741,10199270,299748,5163
-"Karusi , Burundi",2005,10199270,530375,5166
-"Ruyigi , Burundi",9014,10199270,507042,5176
-"Bujumbura Mairie , Burundi",238,10199270,630672,5161
-"Rutana , Burundi",2091,10199270,419494,5175
-"Gitega , Burundi",1582,10199270,848902,5165
-"Ngozi , Burundi",9780,10199270,908026,5173
-"Cibitoke , Burundi",3097,10199270,602766,5164
-"Muramvya , Burundi",705,10199270,377338,5170
-"Mwaro , Burundi",399,10199270,340694,5172
-"Kirundo , Burundi",20016,10199270,790524,5168
-"Kayanza , Burundi",1571,10199270,739239,5167
-"Bubanza , Burundi",5632,10199270,483581,5159
-"Muyinga , Burundi",16090,10199270,777601,5171
-"Bujumbura Rural, Burundi",1949,10199270,594948,5160
-"Makamba , Burundi",0,10199270,522825,5169
-"Bururi , Burundi",0,10199270,335816,5162
-"Rumonge , Burundi",0,10199270,489679,5174
-"Equateur, Congo, Dem. Rep.",117348,76196619,8250141,3507
-"Kinshasa, Congo, Dem. Rep.",0,76196619,6373919,3511
-"Bandundu, Congo, Dem. Rep.",93240,76196619,11418755,3505
-"Sud-Kivu, Congo, Dem. Rep.",20188,76196619,5648156,3515
-"Orientale, Congo, Dem. Rep.",61412,76196619,6922780,3514
-"Kasai-Occidental, Congo, Dem. Rep.",66942,76196619,4634583,3508
-"Bas-Congo, Congo, Dem. Rep.",70120,76196619,10525453,3506
-"Nord-Kivu, Congo, Dem. Rep.",9035,76196619,5524282,3513
-"Katanga, Congo, Dem. Rep.",19922,76196619,7299591,3510
-"Kasai-Oriental, Congo, Dem. Rep.",62346,76196619,7021440,3509
-"Maniema, Congo, Dem. Rep.",18362,76196619,2577519,3512
-"South, Cote d'Ivoire",2213,23108472,3964631,2861
-"West, Cote d'Ivoire",21851,23108472,2555973,2860
-"Northeast, Cote d'Ivoire",4046,23108472,1046909,2858
-"North Central, Cote d'Ivoire",2437,23108472,1528813,2855
-"Central, Cote d'Ivoire",8020,23108472,1576910,2853
-"Abidjan, Cote d'Ivoire",0,23108472,4281696,2863
-"Southwest, Cote d'Ivoire",0,23108472,2135838,2862
-"West Central, Cote d'Ivoire",4426,23108472,3390467,2856
-"East Central, Cote d'Ivoire",0,23108472,654145,2854
-"North, Cote d'Ivoire",16227,23108472,1220244,2857
-"Northwest, Cote d'Ivoire",5709,23108472,752846,2859
-"Far North, Cameroon",43669,22834522,3820432,341
-"Douala, Cameroon",0,22834522,2381791,339
-"Northwest, Cameroon",0,22834522,2021671,344
-"West, Cameroon",0,22834522,2484467,347
-"Southwest, Cameroon",0,22834522,1965343,346
-"North, Cameroon",5807,22834522,2198053,343
-"South, Cameroon",0,22834522,691320,345
-"Littoral, Cameroon",0,22834522,1031711,342
-"Centre, Cameroon",0,22834522,1984587,338
-"East, Cameroon",0,22834522,1031417,340
-"Yaounde, Cameroon",0,22834522,2175308,348
-"Adamawa, Cameroon",401,22834522,1048422,337
-"La Guajira, Colombia",5974,48228697,448215,4151
-"Guainia, Colombia",516,48228697,1594921,4167
-"Cesar, Colombia",0,48228697,915571,4146
-"Magdalena, Colombia",0,48228697,976818,4152
-"Atlantico, Colombia",0,48228697,2037754,4139
-"San Andres, Colombia",0,48228697,72499,4165
-"Bolivar, Colombia",0,48228697,1745861,4141
-"Sucre, Colombia",0,48228697,715276,4159
-"Cordoba, Colombia",0,48228697,1179501,4147
-"Norte de Santander, Colombia",0,48228697,1250808,4155
-"Santander, Colombia",4416,48228697,2466524,4158
-"Boyaca, Colombia",0,48228697,1600938,4142
-"Cundinamarca, Colombia",0,48228697,2732967,4148
-"Meta, Colombia",0,48228697,784758,4153
-"Antioquia, Colombia",1329,48228697,6623761,4138
-"Caldas, Colombia",0,48228697,1058959,4143
-"Risaralda, Colombia",0,48228697,995414,4157
-"Quindio, Colombia",0,48228697,684540,4156
-"Tolima, Colombia",0,48228697,1497077,4160
-"Huila, Colombia",0,48228697,1022868,4150
-"Caqueta, Colombia",995,48228697,307518,4144
-"Valle, Colombia",0,48228697,4797299,4161
-"Cauca, Colombia",1132,48228697,1326319,4145
-"Narino, Colombia",2101,48228697,1563030,4154
-"Choco, Colombia",1555,48228697,421259,4149
-"Arauca, Colombia",0,48228697,175034,4162
-"Casanare, Colombia",0,48228697,347464,4163
-"Vichada, Colombia",0,48228697,53917,4170
-"Amazonas, Colombia",2142,48228697,80135,4166
-"Putumayo, Colombia",0,48228697,343542,4164
-"Guaviare, Colombia",0,48228697,48193,4168
-"Vaupes, Colombia",854,48228697,14427,4169
-"Bogota, Colombia",0,48228697,8345528,4140
-"Region 0, Dominican Republic",0,10528394,3901995,3551
-"Region VI, Dominican Republic",434,10528394,523238,3557
-"Region IV, Dominican Republic",555,10528394,356173,3555
-"Region VII, Dominican Republic",747,10528394,549440,3558
-"Region III, Dominican Republic",0,10528394,698331,3554
-"Region V, Dominican Republic",0,10528394,1171891,3556
-"Region II, Dominican Republic",0,10528394,1670825,3553
-"Region VIII, Dominican Republic",0,10528394,784997,3559
-"Region I, Dominican Republic",0,10528394,871504,3552
-"Urban Governorates, Egypt, Arab Rep.",3555,93778172,15034028,3951
-"Frontier Governorates, Egypt, Arab Rep.",496,93778172,1648189,3947
-"Lower Egypt, Egypt, Arab Rep.",0,93778172,43761951,3948
-"Upper Egypt, Egypt, Arab Rep.",8450,93778172,33334004,3950
-"Oromiya, Ethiopia",0,99873033,35359943,4418
-"Gambela, Ethiopia",27701,99873033,2177820,4422
-"Amhara, Ethiopia",19094,99873033,25429330,4417
-"Affar, Ethiopia",59202,99873033,841270,4416
-"Dire Dawa, Ethiopia",340,99873033,553354,4425
-"Ben-Gumz, Ethiopia",0,99873033,1088873,4420
-"Somali, Ethiopia",104001,99873033,2205949,4419
-"Addis Abeba, Ethiopia",0,99873033,4505313,4424
-"SNNP, Ethiopia",59247,99873033,20322745,4421
-"Harari, Ethiopia",0,99873033,276813,4423
-"Tigray, Ethiopia",0,99873033,7111624,4415
-"Ogooue Lolo, Gabon",637,1930175,59627,2885
-"Ngounie, Gabon",360,1930175,105249,2882
-"Liberville/Port Gentil, Gabon",0,1930175,1103986,2880
-"Moyen Ogooue, Gabon",0,1930175,67200,2881
-"Ogooue Ivindo, Gabon",739,1930175,49042,2884
-"Ogooue Maritime, Gabon",18,1930175,32416,2886
-"Estuaire, Gabon",95,1930175,192153,2878
-"Woleu Ntem, Gabon",75,1930175,116204,2887
-"Nyanga, Gabon",100,1930175,48606,2883
-"Haut Ogooue, Gabon",100,1930175,155692,2879
-"Western, Ghana",0,27582821,3674435,3807
-"Central, Ghana",0,27582821,3049592,3812
-"Greater Accra, Ghana",0,27582821,5559661,3813
-"Volta, Ghana",0,27582821,1713213,3811
-"Eastern, Ghana",0,27582821,2711638,3815
-"Ashanti, Ghana",0,27582821,5159188,3814
-"Brong Ahafo, Ghana",0,27582821,2200619,3810
-"Northern, Ghana",0,27582821,2067464,3809
-"Upper East, Ghana",26473,27582821,850045,3806
-"Upper West, Ghana",2722,27582821,596967,3808
-"Conakry, Guinea",0,12091533,2126832,3277
-"Boke, Guinea",1894,12091533,1430244,3276
-"Labe, Guinea",18442,12091533,1235664,3281
-"Faranah, Guinea",5619,12091533,959870,3278
-"Nzerekore, Guinea",0,12091533,1946051,3283
-"Kindia, Guinea",0,12091533,1765462,3280
-"Mamou, Guinea",8339,12091533,1005127,3282
-"Kankan, Guinea",4402,12091533,1622283,3279
-"Region 1, Guyana",0,768514,26183,981
-"Region 6, Guyana",0,768514,147728,986
-"Region 2, Guyana",0,768514,43630,982
-"Region 3, Guyana",0,768514,94904,983
-"Region 4, Guyana",0,768514,321868,984
-"Region 5, Guyana",0,768514,56908,985
-"Region 7, Guyana",0,768514,15853,987
-"Region 8, Guyana",227,768514,10942,988
-"Region 9, Guyana",47,768514,12001,989
-"Region 10, Guyana",0,768514,38498,990
-"Atlantida, Honduras",0,8960829,458031,2833
-"Colon, Honduras",454,8960829,316512,2834
-"Comayagua, Honduras",609,8960829,557242,2835
-"Gracias a Dios, Honduras",1225,8960829,232521,2849
-"Copan, Honduras",389,8960829,372058,2836
-"Resto Cortes, Honduras",1096,8960829,1711712,2848
-"Choluteca, Honduras",675,8960829,439838,2838
-"El Paraiso, Honduras",756,8960829,440051,2837
-"Resto Francisco Morazan, Honduras",1592,8960829,1671761,2847
-"Intibuca, Honduras",1456,8960829,206030,2839
-"Islas de la Bahia, Honduras",0,8960829,69040,2850
-"La Paz, Honduras",603,8960829,204154,2840
-"Lempira, Honduras",1483,8960829,308340,2841
-"Ocotepeque, Honduras",180,8960829,172897,2842
-"Olancho, Honduras",1100,8960829,498009,2843
-"Santa Barbara, Honduras",0,8960829,493444,2844
-"Valle, Honduras",1408,8960829,199046,2845
-"Yoro, Honduras",559,8960829,610142,2846
-"Metropolitan Area, Haiti",0,10711061,2576147,2874
-"Central, Haiti",4820,10711061,664977,2868
-"South, Haiti",6702,10711061,779375,2869
-"Artibonite, Haiti",0,10711061,1763889,2867
-"Nippes, Haiti",1197,10711061,328350,2872
-"Grande-Anse, Haiti",5987,10711061,402044,2870
-"Southeast, Haiti",521,10711061,682010,2864
-"West, Haiti",3402,10711061,1739361,2873
-"Northwest, Haiti",1959,10711061,487394,2871
-"North, Haiti",0,10711061,922211,2865
-"Northeast, Haiti",313,10711061,365304,2866
-"Amman, Jordan",0,9159302,3638390,3196
-"Balqa, Jordan",0,9159302,627128,3198
-"Zarqa, Jordan",0,9159302,1317875,3206
-"Madaba, Jordan",0,9159302,245948,3203
-"Irbid, Jordan",0,9159302,1622877,3199
-"Mafraq, Jordan",0,9159302,418040,3204
-"Jarash, Jordan",0,9159302,250833,3200
-"Ajloun, Jordan",0,9159302,196592,3195
-"Karak, Jordan",0,9159302,372475,3201
-"Tafiela, Jordan",0,9159302,129217,3205
-"Ma'an, Jordan",0,9159302,143844,3202
-"Aqaba, Jordan",0,9159302,196082,3197
-"Nairobi, Kenya",0,47236259,5870773,3703
-"Central, Kenya",0,47236259,7085293,3700
-"Coast, Kenya",0,47236259,3540261,3701
-"Eastern, Kenya",59140,47236259,7145942,3702
-"North Eastern, Kenya",36497,47236259,961273,3704
-"Nyanza, Kenya",0,47236259,5800461,3705
-"Rift Valley, Kenya",78674,47236259,11679037,3706
-"Western, Kenya",0,47236259,5153219,3707
-"Banteay Meanchey, Cambodia",,15517635,656623,3887
-"Kampong Cham, Cambodia",,15517635,1958251,3889
-"Kampong Chhnang, Cambodia",,15517635,596630,3890
-"Kampong Speu, Cambodia",,15517635,954405,3891
-"Kampong Thom, Cambodia",,15517635,784972,3892
-"Kandal, Cambodia",,15517635,1233444,3894
-"Phnom Penh, Cambodia",,15517635,1273507,3898
-"Kratie, Cambodia",,15517635,442372,3895
-"Prey Veng, Cambodia",,15517635,1227388,3901
-"Pursat, Cambodia",,15517635,598759,3902
-"Siem Reap, Cambodia",,15517635,980603,3903
-"Svay Rieng, Cambodia",,15517635,637373,3904
-"Takeo, Cambodia",,15517635,991193,3905
-"Otdar Meanchey, Cambodia",,15517635,266044,3897
-"Battambang/Pailin, Cambodia",,15517635,1197901,3888
-"Kampot/Kep, Cambodia",,15517635,747487,3893
-"Preah Sihanouk/Koh Kong, Cambodia",,15517635,314076,3899
-"Preah Vihear/Stung Treng, Cambodia",,15517635,353616,3900
-"Mondul Kiri/Ratanak Kiri, Cambodia",,15517635,302990,3896
-"Mwali, Comoros",442,777424,45628,3467
-"Ngazidja, Comoros",0,777424,366804,3466
-"Ndzuwani, Comoros",612,777424,364992,3468
-"Issyk-Kul, Kyrgyz Republic",0,5956900,560056,2921
-"Djalal-Abad, Kyrgyz Republic",0,5956900,904349,2918
-"Naryn, Kyrgyz Republic",698,5956900,261903,2919
-"Batken, Kyrgyz Republic",0,5956900,413525,2916
-"Osh Oblast, Kyrgyz Republic",0,5956900,978052,2923
-"Talas, Kyrgyz Republic",0,5956900,245624,2920
-"Chui, Kyrgyz Republic",718,5956900,1222095,2922
-"Bishkek City, Kyrgyz Republic",0,5956900,1095025,2915
-"Osh City, Kyrgyz Republic",0,5956900,276271,2917
-"North Western, Liberia",0,4499621,452724,3394
-"North Central, Liberia",17419,4499621,1193361,3393
-"South Central, Liberia",0,4499621,2296430,3395
-"South Eastern A, Liberia",0,4499621,310887,3396
-"South Eastern B, Liberia",267,4499621,246219,3397
-"Mafeteng, Lesotho",0,2174645,207944,3907
-"Quthing, Lesotho",1003,2174645,114245,3915
-"Maseru, Lesotho",173,2174645,555025,3911
-"Berea, Lesotho",328,2174645,268949,3912
-"Mokhotlong, Lesotho",2590,2174645,113822,3909
-"Leribe, Lesotho",0,2174645,340182,3908
-"Butha-Buthe, Lesotho",456,2174645,134665,3906
-"Qacha's Nek, Lesotho",409,2174645,76232,3914
-"Mohale's Hoek, Lesotho",1529,2174645,205342,3913
-"Thaba-Tseka, Lesotho",5286,2174645,158239,3910
-"North, Moldova",0,3554108,1142697,1609
-"Center, Moldova",0,3554108,956271,1610
-"Chisinau, Moldova",0,3554108,791035,1612
-"South, Moldova",0,3554108,664105,1611
-"Analamanga, Madagascar",0,24234088,2816343,1476
-"Vakinankaratra, Madagascar",0,24234088,530019,1477
-"Itasy, Madagascar",0,24234088,867431,1478
-"Bongolava, Madagascar",1052,24234088,731351,1479
-"Haute Matsiatra, Madagascar",0,24234088,1174858,1480
-"Amoron'i Mania, Madagascar",0,24234088,688085,1481
-"Vatovavy Fitovinany, Madagascar",0,24234088,1323808,1482
-"Ihorombe, Madagascar",880,24234088,474842,1483
-"Atsimo Atsinanana, Madagascar",2203,24234088,818789,1484
-"Atsinanana, Madagascar",0,24234088,1375535,1485
-"Analanjirofo, Madagascar",485,24234088,1552441,1486
-"Alaotra Mangoro, Madagascar",0,24234088,1209492,1487
-"Boeny, Madagascar",3448,24234088,1065046,1488
-"Sofia, Madagascar",13008,24234088,1743110,1489
-"Betsiboka, Madagascar",1632,24234088,442902,1490
-"Melaky, Madagascar",0,24234088,360085,1491
-"Atsimo Andrefana, Madagascar",28982,24234088,2098655,1492
-"Androy, Madagascar",97518,24234088,847027,1493
-"Anosy, Madagascar",23435,24234088,949719,1494
-"Menabe, Madagascar",12919,24234088,883143,1495
-"Diana, Madagascar",1716,24234088,913646,1496
-"Sava, Madagascar",0,24234088,1367762,1497
-"Kayes, Mali",2684,17467905,2338018,3415
-"Koulikoro, Mali",2044,17467905,3339125,3417
-"Sikasso, Mali",7213,17467905,3119099,3421
-"Segou, Mali",61000,17467905,3185610,3420
-"Mopti, Mali",5811,17467905,2309947,3418
-"Mopti (Not Surveyed), Mali",0,17467905,621153,3419
-"Bamako, Mali",0,17467905,2554953,3413
-"Magway, Myanmar",0,52403669,4450364,4021
-"Yangon, Myanmar",0,52403669,7251480,4029
-"Mon, Myanmar",0,52403669,1954235,4023
-"Kachin, Myanmar",0,52403669,1528688,4018
-"Shan, Myanmar",0,52403669,5615437,4027
-"Mandalay, Myanmar",0,52403669,6122901,4022
-"NayPyitaw, Myanmar",0,52403669,1272252,4024
-"Ayeyarwaddy, Myanmar",13742,52403669,7148310,4015
-"Bago, Myanmar",0,52403669,5318785,4016
-"Rakhine, Myanmar",9995,52403669,2913593,4025
-"Kayin, Myanmar",1951,52403669,1403770,4020
-"Taninthayi, Myanmar",0,52403669,1281662,4028
-"Kayah, Myanmar",0,52403669,271090,4019
-"Sagaing, Myanmar",5040,52403669,5429111,4026
-"Chin, Myanmar",1761,52403669,441990,4017
-"Northern, Malawi",0,17573607,2083032,4264
-"Central, Malawi",51243,17573607,7457127,4265
-"Southern, Malawi",64091,17573607,8033448,4266
-"Cabo Delgado, Mozambique",5619,28010691,2941655,1684
-"Niassa, Mozambique",0,28010691,1446935,1683
-"Manica, Mozambique",4506,28010691,2140262,1688
-"Zambezia, Mozambique",59653,28010691,3637056,1686
-"Gaza, Mozambique",3257,28010691,2192227,1691
-"Tete, Mozambique",12709,28010691,2284512,1687
-"Maputo City, Mozambique",0,28010691,1322626,1693
-"Sofala, Mozambique",0,28010691,2337361,1689
-"Inhambane, Mozambique",22643,28010691,1886085,1690
-"Nampula, Mozambique",64536,28010691,6283378,1685
-"Maputo, Mozambique",0,28010691,1538592,1692
-"North West, Nigeria",526670,181181744,45494600,3425
-"North East, Nigeria",215586,181181744,19732092,3424
-"South West, Nigeria",0,181181744,39920175,3428
-"North Central, Nigeria",64887,181181744,28542663,3423
-"South South, Nigeria",0,181181744,27000093,3427
-"South East, Nigeria",48551,181181744,20492121,3426
-"Erongo, Namibia",0,2425561,229024,3573
-"Zambezi, Namibia",430,2425561,133242,3572
-"Khomas, Namibia",0,2425561,496258,3577
-"Omusati, Namibia",0,2425561,233808,3581
-"Oshana, Namibia",0,2425561,204569,3582
-"Omaheke, Namibia",0,2425561,82409,3580
-"Hardap, Namibia",0,2425561,93906,3574
-"Otjozondjupa, Namibia",0,2425561,160582,3584
-"//Karas, Namibia",0,2425561,99893,3575
-"Oshikoto, Namibia",0,2425561,201329,3583
-"Kavango, Namibia",1735,2425561,181604,3576
-"Kunene, Namibia",111,2425561,87264,3578
-"Ohangwena, Namibia",672,2425561,221674,3579
-"Province 1, Nepal",0,28656282,5202372,4394
-"Province 2, Nepal",0,28656282,5227948,4395
-"Province 3, Nepal",7876,28656282,6544830,4396
-"Province 4, Nepal",0,28656282,3045322,4397
-"Province 5, Nepal",0,28656282,4653835,4398
-"Province 6, Nepal",6936,28656282,1605716,4399
-"Province 7, Nepal",4831,28656282,2376259,4400
-"Amazonas, Peru",0,31376671,462316,3167
-"Ancash, Peru",0,31376671,1362502,3168
-"Apurimac, Peru",0,31376671,559948,3169
-"Arequipa, Peru",0,31376671,1494477,3170
-"Ayacucho, Peru",0,31376671,915393,3171
-"Cajamarca, Peru",0,31376671,1690421,3172
-"Cusco, Peru",0,31376671,1402141,3173
-"Huancavelica, Peru",0,31376671,679008,3174
-"Huanuco, Peru",0,31376671,913169,3175
-"Ica, Peru",0,31376671,839583,3176
-"Junin, Peru",0,31376671,1454792,3177
-"La Libertad, Peru",0,31376671,1749646,3178
-"Lambayeque, Peru",0,31376671,1072020,3179
-"Lima, Peru",0,31376671,9530235,3180
-"Loreto, Peru",1221,31376671,865163,3181
-"Madre de Dios, Peru",0,31376671,141453,3182
-"Moquegua, Peru",0,31376671,249682,3183
-"Pasco, Peru",0,31376671,304025,3184
-"Piura, Peru",1125,31376671,1669451,3185
-"Puno, Peru",0,31376671,2083751,3186
-"San Martin, Peru",6993,31376671,885326,3187
-"Tacna, Peru",0,31376671,421842,3188
-"Tumbes, Peru",0,31376671,228604,3189
-"Ucayali, Peru",1557,31376671,401722,3190
-"National Capital Region, Philippines",0,101716359,15669333,3355
-"CALABARZON, Philippines",0,101716359,13315477,3358
-"Central Luzon, Philippines",0,101716359,10394717,3345
-"MIMAROPA, Philippines",10395,101716359,3443647,3359
-"Cordillera Admin Region, Philippines",0,101716359,1931189,3356
-"Ilocos Region, Philippines",0,101716359,5421540,3343
-"Cagayan Valley, Philippines",0,101716359,3339099,3344
-"Bicol, Philippines",7944,101716359,5763735,3346
-"Western Visayas, Philippines",18168,101716359,8372584,3347
-"Central Visayas, Philippines",0,101716359,7127528,3348
-"Eastern Visayas, Philippines",0,101716359,4241751,3349
-"Zamboanga Peninsula, Philippines",0,101716359,3710889,3350
-"ARMM, Philippines",46492,101716359,3542558,3357
-"Northern Mindanao, Philippines",0,101716359,4582086,3351
-"Davao, Philippines",0,101716359,4508524,3352
-"SOCCSKSARGEN, Philippines",0,101716359,4021623,3353
-"Caraga, Philippines",0,101716359,2330078,3354
-"Punjab, Pakistan",38734,189380513,110058812,3293
-"Balochistan, Pakistan",14892,189380513,10028218,3295
-"Islamabad, Pakistan",0,189380513,2597617,3296
-"Sindh, Pakistan",20743,189380513,43033943,3294
-"Khyber Pakhtunkhwa, Pakistan",0,189380513,23661922,3289
-"South, Rwanda",37424,11629553,2841570,3990
-"East, Rwanda",1221,11629553,2950084,3993
-"West, Rwanda",12073,11629553,2553825,3991
-"City of Kigali, Rwanda",1351,11629553,1370300,3989
-"North, Rwanda",6972,11629553,1913774,3992
-"Eastern, Sierra Leone",3666,7237025,1791124,3305
-"Northern, Sierra Leone",10258,7237025,2401541,3306
-"Southern, Sierra Leone",20250,7237025,1611785,3307
-"Western, Sierra Leone",0,7237025,1432575,3308
-"West, Senegal",0,14976994,6215047,5109
-"South, Senegal",22384,14976994,2612282,5108
-"Center, Senegal",10346,14976994,3571924,5106
-"North, Senegal",20563,14976994,2577740,5107
+"Central, Albania",0,2895092,1294058,12
+"Mountain, Albania",129,2895092,248376,13
+"Coastal, Albania",0,2895092,855475,11
+"Tirana, Albania",0,2895092,497183,14
+"Yerevan, Armenia",0,2893509,909102,4333
+"Aragatsotn, Armenia",0,2893509,141741,4332
+"Ararat, Armenia",0,2893509,249920,4334
+"Armavir, Armenia",0,2893509,231945,4335
+"Gegharkunik, Armenia",474,2893509,220436,4336
+"Lori, Armenia",0,2893509,236600,4337
+"Kotayk, Armenia",0,2893509,292914,4338
+"Shirak, Armenia",0,2893509,251209,4339
+"Syunik, Armenia",0,2893509,164323,4340
+"Vayots Dzor, Armenia",0,2893509,61278,4341
+"Tavush, Armenia",0,2893509,134042,4342
+"Benguela        , Angola",2346,25998340,2186881,4294
+"Lunda Sul       , Angola",0,25998340,460179,4286
+"Luanda          , Angola",0,25998340,7957592,4284
+"Cuando Cubango  , Angola",0,25998340,569541,4281
+"Namibe          , Angola",7918,25998340,327914,4288
+"Cabinda         , Angola",0,25998340,641718,4293
+"Cuanza Sul      , Angola",0,25998340,2200646,4283
+"Malanje         , Angola",0,25998340,1066270,4292
+"Huíla           , Angola",20213,25998340,2157785,4280
+"Lunda Norte     , Angola",0,25998340,795937,4285
+"Huambo          , Angola",0,25998340,1856770,4279
+"Moxico          , Angola",0,25998340,713379,4287
+"Zaire           , Angola",0,25998340,553674,4290
+"Bié             , Angola",0,25998340,1363578,4277
+"Bengo           , Angola",244,25998340,360161,4291
+"Cuanza Norte    , Angola",0,25998340,441581,4282
+"Cunene          , Angola",43182,25998340,884152,4278
+"Uíge            , Angola",0,25998340,1460583,4289
+"Barisal, Bangladesh",6538,157571292,9758711,3952
+"Chittagong, Bangladesh",0,157571292,28214367,3953
+"Dhaka, Bangladesh",70859,157571292,55072625,3954
+"Khulna, Bangladesh",26166,157571292,16263891,3956
+"Rajshahi, Bangladesh",38077,157571292,19535603,3955
+"Rangpur, Bangladesh",77427,157571292,18429161,3957
+"Sylhet, Bangladesh",41443,157571292,10296936,3958
+"Boucle du Mouhoun, Burkina Faso",0,17072723,1694226,237
+"Cascades, Burkina Faso",0,17072723,536548,238
+"Centre, Burkina Faso",0,17072723,2405205,239
+"Centre-Est, Burkina Faso",2234,17072723,1231396,240
+"Sud-Ouest, Burkina Faso",0,17072723,1008065,249
+"Centre-Nord, Burkina Faso",9778,17072723,1302812,241
+"Centre-Ouest, Burkina Faso",0,17072723,1223716,242
+"Centre-Sud, Burkina Faso",0,17072723,635299,243
+"Est, Burkina Faso",40803,17072723,1308585,244
+"Hauts-Bassins, Burkina Faso",0,17072723,2386879,245
+"Nord, Burkina Faso",0,17072723,1441412,246
+"Plateau Central, Burkina Faso",0,17072723,700728,247
+"Sahel, Burkina Faso",23070,17072723,1197853,248
+"Alibori, Benin",9126,10004451,492032,3560
+"Atacora, Benin",21089,10004451,718146,3561
+"Atlantique, Benin",353,10004451,1327646,3562
+"Mono, Benin",0,10004451,654337,3568
+"Borgou, Benin",13231,10004451,733705,3563
+"Collines, Benin",4155,10004451,734778,3564
+"Couffo, Benin",1022,10004451,683416,3565
+"Donga, Benin",1896,10004451,357695,3566
+"Littoral, Benin",0,10004451,1433743,3567
+"Oueme, Benin",0,10004451,1245525,3569
+"Plateau, Benin",309,10004451,631896,3570
+"Zou, Benin",295,10004451,991533,3571
+"Chuquisaca, Bolivia",1508,10400264,650558,175
+"La Paz, Bolivia",0,10400264,3213804,176
+"Cochabamba, Bolivia",1887,10400264,1905716,177
+"Santa Cruz, Bolivia",299,10400264,2081239,181
+"Oruro, Bolivia",0,10400264,629713,178
+"Potosi, Bolivia",2819,10400264,1083172,179
+"Tarija, Bolivia",0,10400264,479239,180
+"Beni, Bolivia",0,10400264,298842,182
+"Pando, Bolivia",0,10400264,57982,183
+"Cankuzo , Burundi",1639,9600186,282142,5163
+"Karusi , Burundi",1887,9600186,499222,5166
+"Ruyigi , Burundi",7367,9600186,477260,5176
+"Bujumbura Mairie , Burundi",224,9600186,593628,5161
+"Rutana , Burundi",1968,9600186,394853,5175
+"Gitega , Burundi",1489,9600186,799039,5165
+"Ngozi , Burundi",9205,9600186,854690,5173
+"Cibitoke , Burundi",2915,9600186,567360,5164
+"Muramvya , Burundi",598,9600186,355174,5170
+"Mwaro , Burundi",375,9600186,320682,5172
+"Kirundo , Burundi",18840,9600186,744090,5168
+"Kayanza , Burundi",1479,9600186,695818,5167
+"Bubanza , Burundi",5301,9600186,455177,5159
+"Muyinga , Burundi",14171,9600186,731926,5171
+"Bujumbura Rural, Burundi",1835,9600186,560002,5160
+"Makamba , Burundi",0,9600186,492115,5169
+"Bururi , Burundi",0,9600186,316091,5162
+"Rumonge , Burundi",0,9600186,460917,5174
+"Equateur, Congo, Dem. Rep.",136189,71316033,7721698,3507
+"Kinshasa, Congo, Dem. Rep.",0,71316033,5965653,3511
+"Bandundu, Congo, Dem. Rep.",89956,71316033,10687355,3505
+"Sud-Kivu, Congo, Dem. Rep.",19349,71316033,5286377,3515
+"Orientale, Congo, Dem. Rep.",57478,71316033,6479359,3514
+"Kasai-Occidental, Congo, Dem. Rep.",65483,71316033,4337726,3508
+"Bas-Congo, Congo, Dem. Rep.",65629,71316033,9851271,3506
+"Nord-Kivu, Congo, Dem. Rep.",8456,71316033,5170438,3513
+"Katanga, Congo, Dem. Rep.",21041,71316033,6832034,3510
+"Kasai-Oriental, Congo, Dem. Rep.",58353,71316033,6571699,3509
+"Maniema, Congo, Dem. Rep.",17186,71316033,2412422,3512
+"South, Cote d'Ivoire",2104,21966312,3768675,2861
+"West, Cote d'Ivoire",20771,21966312,2429642,2860
+"Northeast, Cote d'Ivoire",5266,21966312,995164,2858
+"North Central, Cote d'Ivoire",2317,21966312,1453250,2855
+"Central, Cote d'Ivoire",7624,21966312,1498970,2853
+"Abidjan, Cote d'Ivoire",0,21966312,4070069,2863
+"Southwest, Cote d'Ivoire",0,21966312,2030272,2862
+"West Central, Cote d'Ivoire",4208,21966312,3222890,2856
+"East Central, Cote d'Ivoire",0,21966312,621813,2854
+"North, Cote d'Ivoire",19814,21966312,1159933,2857
+"Northwest, Cote d'Ivoire",5426,21966312,715636,2859
+"Far North, Cameroon",50844,21655715,3623206,341
+"Douala, Cameroon",0,21655715,2258834,339
+"Northwest, Cameroon",0,21655715,1917304,344
+"West, Cameroon",0,21655715,2356209,347
+"Southwest, Cameroon",0,21655715,1863884,346
+"North, Cameroon",5507,21655715,2084581,343
+"South, Cameroon",0,21655715,655632,345
+"Littoral, Cameroon",0,21655715,978450,342
+"Centre, Cameroon",0,21655715,1882135,338
+"East, Cameroon",0,21655715,978171,340
+"Yaounde, Cameroon",0,21655715,2063010,348
+"Adamawa, Cameroon",381,21655715,994298,337
+"La Guajira, Colombia",8651,47342981,439983,4151
+"Guainia, Colombia",566,47342981,1565631,4167
+"Cesar, Colombia",0,47342981,898757,4146
+"Magdalena, Colombia",0,47342981,958879,4152
+"Atlantico, Colombia",0,47342981,2000330,4139
+"San Andres, Colombia",0,47342981,71168,4165
+"Bolivar, Colombia",0,47342981,1713799,4141
+"Sucre, Colombia",0,47342981,702140,4159
+"Cordoba, Colombia",1196,47342981,1157839,4147
+"Norte de Santander, Colombia",0,47342981,1227837,4155
+"Santander, Colombia",4334,47342981,2421227,4158
+"Boyaca, Colombia",0,47342981,1571537,4142
+"Cundinamarca, Colombia",0,47342981,2682776,4148
+"Meta, Colombia",59,47342981,770346,4153
+"Antioquia, Colombia",1304,47342981,6502117,4138
+"Caldas, Colombia",0,47342981,1039512,4143
+"Risaralda, Colombia",0,47342981,977133,4157
+"Quindio, Colombia",0,47342981,671969,4156
+"Tolima, Colombia",0,47342981,1469584,4160
+"Huila, Colombia",0,47342981,1004083,4150
+"Caqueta, Colombia",1628,47342981,301870,4144
+"Valle, Colombia",0,47342981,4709197,4161
+"Cauca, Colombia",1112,47342981,1301961,4145
+"Narino, Colombia",2964,47342981,1534325,4154
+"Choco, Colombia",1527,47342981,413523,4149
+"Arauca, Colombia",0,47342981,171819,4162
+"Casanare, Colombia",0,47342981,341082,4163
+"Vichada, Colombia",0,47342981,52927,4170
+"Amazonas, Colombia",2869,47342981,78664,4166
+"Putumayo, Colombia",0,47342981,337233,4164
+"Guaviare, Colombia",0,47342981,47308,4168
+"Vaupes, Colombia",930,47342981,14162,4169
+"Bogota, Colombia",0,47342981,8192263,4140
+"Region 0, Dominican Republic",0,10281296,3810416,3551
+"Region VI, Dominican Republic",424,10281296,510958,3557
+"Region IV, Dominican Republic",542,10281296,347814,3555
+"Region VII, Dominican Republic",1460,10281296,536545,3558
+"Region III, Dominican Republic",0,10281296,681941,3554
+"Region V, Dominican Republic",0,10281296,1144387,3556
+"Region II, Dominican Republic",0,10281296,1631611,3553
+"Region VIII, Dominican Republic",0,10281296,766574,3559
+"Region I, Dominican Republic",0,10281296,851050,3552
+"Urban Governorates, Egypt, Arab Rep.",3745,89807433,14397460,3951
+"Frontier Governorates, Egypt, Arab Rep.",475,89807433,1578402,3947
+"Lower Egypt, Egypt, Arab Rep.",0,89807433,41908990,3948
+"Upper Egypt, Egypt, Arab Rep.",11941,89807433,31922581,3950
+"Oromiya, Ethiopia",0,94887724,33594900,4418
+"Gambela, Ethiopia",29249,94887724,2069111,4422
+"Amhara, Ethiopia",18141,94887724,24159988,4417
+"Affar, Ethiopia",62582,94887724,799277,4416
+"Dire Dawa, Ethiopia",484,94887724,525733,4425
+"Ben-Gumz, Ethiopia",0,94887724,1034520,4420
+"Somali, Ethiopia",111013,94887724,2095836,4419
+"Addis Abeba, Ethiopia",0,94887724,4280424,4424
+"SNNP, Ethiopia",56290,94887724,19308305,4421
+"Harari, Ethiopia",0,94887724,262995,4423
+"Tigray, Ethiopia",0,94887724,6756637,4415
+"Ogooue Lolo, Gabon",815,1817271,56139,2885
+"Ngounie, Gabon",647,1817271,99093,2882
+"Liberville/Port Gentil, Gabon",0,1817271,1039409,2880
+"Moyen Ogooue, Gabon",0,1817271,63270,2881
+"Ogooue Ivindo, Gabon",1016,1817271,46173,2884
+"Ogooue Maritime, Gabon",17,1817271,30520,2886
+"Estuaire, Gabon",89,1817271,180913,2878
+"Woleu Ntem, Gabon",141,1817271,109407,2887
+"Nyanga, Gabon",186,1817271,45762,2883
+"Haut Ogooue, Gabon",189,1817271,146585,2879
+"Western, Ghana",0,26346251,3509705,3807
+"Central, Ghana",0,26346251,2912876,3812
+"Greater Accra, Ghana",0,26346251,5310415,3813
+"Volta, Ghana",0,26346251,1636408,3811
+"Eastern, Ghana",0,26346251,2590072,3815
+"Ashanti, Ghana",0,26346251,4927895,3814
+"Brong Ahafo, Ghana",0,26346251,2101963,3810
+"Northern, Ghana",0,26346251,1974777,3809
+"Upper East, Ghana",26831,26346251,811936,3806
+"Upper West, Ghana",2600,26346251,570204,3808
+"Conakry, Guinea",0,11536615,2029225,3277
+"Boke, Guinea",1807,11536615,1364605,3276
+"Labe, Guinea",17595,11536615,1178956,3281
+"Faranah, Guinea",5361,11536615,915818,3278
+"Nzerekore, Guinea",0,11536615,1856740,3283
+"Kindia, Guinea",0,11536615,1684440,3280
+"Mamou, Guinea",9118,11536615,958998,3282
+"Kankan, Guinea",4200,11536615,1547832,3279
+"Region 1, Guyana",0,758081,25828,981
+"Region 6, Guyana",0,758081,145722,986
+"Region 2, Guyana",0,758081,43037,982
+"Region 3, Guyana",0,758081,93615,983
+"Region 4, Guyana",0,758081,317498,984
+"Region 5, Guyana",0,758081,56136,985
+"Region 7, Guyana",0,758081,15637,987
+"Region 8, Guyana",224,758081,10794,988
+"Region 9, Guyana",46,758081,11838,989
+"Region 10, Guyana",0,758081,37975,990
+"Atlantida, Honduras",0,8657785,442541,2833
+"Colon, Honduras",438,8657785,305808,2834
+"Comayagua, Honduras",588,8657785,538397,2835
+"Gracias a Dios, Honduras",1184,8657785,224657,2849
+"Copan, Honduras",375,8657785,359475,2836
+"Resto Cortes, Honduras",1059,8657785,1653824,2848
+"Choluteca, Honduras",652,8657785,424964,2838
+"El Paraiso, Honduras",1354,8657785,425169,2837
+"Resto Francisco Morazan, Honduras",2698,8657785,1615224,2847
+"Intibuca, Honduras",1407,8657785,199063,2839
+"Islas de la Bahia, Honduras",0,8657785,66705,2850
+"La Paz, Honduras",582,8657785,197250,2840
+"Lempira, Honduras",1433,8657785,297913,2841
+"Ocotepeque, Honduras",174,8657785,167049,2842
+"Olancho, Honduras",1063,8657785,481167,2843
+"Santa Barbara, Honduras",0,8657785,476756,2844
+"Valle, Honduras",1360,8657785,192315,2845
+"Yoro, Honduras",540,8657785,589508,2846
+"Metropolitan Area, Haiti",0,10431776,2508975,2874
+"Central, Haiti",4694,10431776,647638,2868
+"South, Haiti",6527,10431776,759054,2869
+"Artibonite, Haiti",0,10431776,1717896,2867
+"Nippes, Haiti",1166,10431776,319789,2872
+"Grande-Anse, Haiti",5831,10431776,391561,2870
+"Southeast, Haiti",508,10431776,664227,2864
+"West, Haiti",3314,10431776,1694008,2873
+"Northwest, Haiti",1908,10431776,474686,2871
+"North, Haiti",0,10431776,898165,2865
+"Northeast, Haiti",305,10431776,355779,2866
+"Amman, Jordan",0,8413464,3342117,3196
+"Balqa, Jordan",0,8413464,576061,3198
+"Zarqa, Jordan",0,8413464,1210561,3206
+"Madaba, Jordan",0,8413464,225920,3203
+"Irbid, Jordan",0,8413464,1490727,3199
+"Mafraq, Jordan",0,8413464,384000,3204
+"Jarash, Jordan",0,8413464,230408,3200
+"Ajloun, Jordan",0,8413464,180584,3195
+"Karak, Jordan",0,8413464,342145,3201
+"Tafiela, Jordan",0,8413464,118695,3205
+"Ma'an, Jordan",0,8413464,132130,3202
+"Aqaba, Jordan",0,8413464,180115,3197
+"Nairobi, Kenya",0,44826849,5571318,3703
+"Central, Kenya",0,44826849,6723889,3700
+"Coast, Kenya",0,44826849,3359681,3701
+"Eastern, Kenya",56123,44826849,6781445,3702
+"North Eastern, Kenya",34635,44826849,912241,3704
+"Nyanza, Kenya",0,44826849,5504593,3705
+"Rift Valley, Kenya",74661,44826849,11083317,3706
+"Western, Kenya",0,44826849,4890366,3707
+"Banteay Meanchey, Cambodia",,15022692,635680,3887
+"Kampong Cham, Cambodia",,15022692,1895791,3889
+"Kampong Chhnang, Cambodia",,15022692,577600,3890
+"Kampong Speu, Cambodia",,15022692,923964,3891
+"Kampong Thom, Cambodia",,15022692,759935,3892
+"Kandal, Cambodia",,15022692,1194102,3894
+"Phnom Penh, Cambodia",,15022692,1232887,3898
+"Kratie, Cambodia",,15022692,428263,3895
+"Prey Veng, Cambodia",,15022692,1188240,3901
+"Pursat, Cambodia",,15022692,579661,3902
+"Siem Reap, Cambodia",,15022692,949326,3903
+"Svay Rieng, Cambodia",,15022692,617043,3904
+"Takeo, Cambodia",,15022692,959579,3905
+"Otdar Meanchey, Cambodia",,15022692,257558,3897
+"Battambang/Pailin, Cambodia",,15022692,1159694,3888
+"Kampot/Kep, Cambodia",,15022692,723646,3893
+"Preah Sihanouk/Koh Kong, Cambodia",,15022692,304059,3899
+"Preah Vihear/Stung Treng, Cambodia",,15022692,342337,3900
+"Mondul Kiri/Ratanak Kiri, Cambodia",,15022692,293326,3896
+"Mwali, Comoros",422,741500,43520,3467
+"Ngazidja, Comoros",0,741500,349854,3466
+"Ndzuwani, Comoros",583,741500,348126,3468
+"Issyk-Kul, Kyrgyz Republic",0,5719600,537746,2921
+"Djalal-Abad, Kyrgyz Republic",0,5719600,868323,2918
+"Naryn, Kyrgyz Republic",670,5719600,251470,2919
+"Batken, Kyrgyz Republic",0,5719600,397052,2916
+"Osh Oblast, Kyrgyz Republic",0,5719600,939090,2923
+"Talas, Kyrgyz Republic",0,5719600,235839,2920
+"Chui, Kyrgyz Republic",690,5719600,1173412,2922
+"Bishkek City, Kyrgyz Republic",0,5719600,1051404,2915
+"Osh City, Kyrgyz Republic",0,5719600,265265,2917
+"North Western, Liberia",0,4286291,431260,3394
+"North Central, Liberia",16593,4286291,1136783,3393
+"South Central, Liberia",0,4286291,2187555,3395
+"South Eastern A, Liberia",0,4286291,296147,3396
+"South Eastern B, Liberia",255,4286291,234546,3397
+"Mafeteng, Lesotho",0,2117361,202466,3907
+"Quthing, Lesotho",977,2117361,111236,3915
+"Maseru, Lesotho",169,2117361,540405,3911
+"Berea, Lesotho",320,2117361,261865,3912
+"Mokhotlong, Lesotho",2646,2117361,110824,3909
+"Leribe, Lesotho",0,2117361,331221,3908
+"Butha-Buthe, Lesotho",444,2117361,131117,3906
+"Qacha's Nek, Lesotho",398,2117361,74224,3914
+"Mohale's Hoek, Lesotho",1489,2117361,199933,3913
+"Thaba-Tseka, Lesotho",5313,2117361,154070,3910
+"North, Moldova",0,3558566,1144130,1609
+"Center, Moldova",0,3558566,957470,1610
+"Chisinau, Moldova",0,3558566,792027,1612
+"South, Moldova",0,3558566,664938,1611
+"Analamanga, Madagascar",0,22961146,2668409,1476
+"Vakinankaratra, Madagascar",0,22961146,502179,1477
+"Itasy, Madagascar",0,22961146,821868,1478
+"Bongolava, Madagascar",997,22961146,692935,1479
+"Haute Matsiatra, Madagascar",0,22961146,1113146,1480
+"Amoron'i Mania, Madagascar",0,22961146,651942,1481
+"Vatovavy Fitovinany, Madagascar",0,22961146,1254273,1482
+"Ihorombe, Madagascar",834,22961146,449900,1483
+"Atsimo Atsinanana, Madagascar",2087,22961146,775781,1484
+"Atsinanana, Madagascar",0,22961146,1303282,1485
+"Analanjirofo, Madagascar",459,22961146,1470896,1486
+"Alaotra Mangoro, Madagascar",0,22961146,1145961,1487
+"Boeny, Madagascar",3267,22961146,1009103,1488
+"Sofia, Madagascar",12324,22961146,1651549,1489
+"Betsiboka, Madagascar",1546,22961146,419637,1490
+"Melaky, Madagascar",0,22961146,341171,1491
+"Atsimo Andrefana, Madagascar",27459,22961146,1988419,1492
+"Androy, Madagascar",93354,22961146,802535,1493
+"Anosy, Madagascar",22204,22961146,899833,1494
+"Menabe, Madagascar",12241,22961146,836754,1495
+"Diana, Madagascar",1626,22961146,865655,1496
+"Sava, Madagascar",0,22961146,1295918,1497
+"Kayes, Mali",2532,16477818,2205499,3415
+"Koulikoro, Mali",1928,16477818,3149862,3417
+"Sikasso, Mali",6804,16477818,2942307,3421
+"Segou, Mali",65946,16477818,3005049,3420
+"Mopti, Mali",5482,16477818,2179018,3418
+"Mopti (Not Surveyed), Mali",0,16477818,585946,3419
+"Bamako, Mali",0,16477818,2410138,3413
+"Magway, Myanmar",0,51448196,4369221,4021
+"Yangon, Myanmar",0,51448196,7119265,4029
+"Mon, Myanmar",0,51448196,1918603,4023
+"Kachin, Myanmar",0,51448196,1500816,4018
+"Shan, Myanmar",0,51448196,5513051,4027
+"Mandalay, Myanmar",0,51448196,6011262,4022
+"NayPyitaw, Myanmar",0,51448196,1249055,4024
+"Ayeyarwaddy, Myanmar",26463,51448196,7017976,4015
+"Bago, Myanmar",0,51448196,5221808,4016
+"Rakhine, Myanmar",12987,51448196,2860470,4025
+"Kayin, Myanmar",3899,51448196,1378175,4020
+"Taninthayi, Myanmar",0,51448196,1258293,4028
+"Kayah, Myanmar",0,51448196,266147,4019
+"Sagaing, Myanmar",4948,51448196,5330123,4026
+"Chin, Myanmar",1729,51448196,433932,4017
+"Northern, Malawi",0,16577147,1964920,4264
+"Central, Malawi",48337,16577147,7034292,4265
+"Southern, Malawi",60457,16577147,7577935,4266
+"Cabo Delgado, Mozambique",5303,26434372,2776112,1684
+"Niassa, Mozambique",0,26434372,1365508,1683
+"Manica, Mozambique",4252,26434372,2019818,1688
+"Zambezia, Mozambique",56296,26434372,3432378,1686
+"Gaza, Mozambique",3074,26434372,2068858,1691
+"Tete, Mozambique",11994,26434372,2155950,1687
+"Maputo City, Mozambique",0,26434372,1248194,1693
+"Sofala, Mozambique",0,26434372,2205825,1689
+"Inhambane, Mozambique",21369,26434372,1779944,1690
+"Nampula, Mozambique",60904,26434372,5929777,1685
+"Maputo, Mozambique",0,26434372,1452007,1692
+"North West, Nigeria",539724,171829303,43146209,3425
+"North East, Nigeria",204457,171829303,18713539,3424
+"South West, Nigeria",0,171829303,37859531,3428
+"North Central, Nigeria",61538,171829303,27069316,3423
+"South South, Nigeria",0,171829303,25606372,3427
+"South East, Nigeria",46045,171829303,19434336,3426
+"Erongo, Namibia",0,2316520,218728,3573
+"Zambezi, Namibia",410,2316520,127252,3572
+"Khomas, Namibia",0,2316520,473948,3577
+"Omusati, Namibia",319,2316520,223298,3581
+"Oshana, Namibia",0,2316520,195372,3582
+"Omaheke, Namibia",0,2316520,78704,3580
+"Hardap, Namibia",0,2316520,89684,3574
+"Otjozondjupa, Namibia",0,2316520,153363,3584
+"//Karas, Namibia",0,2316520,95402,3575
+"Oshikoto, Namibia",0,2316520,192278,3583
+"Kavango, Namibia",1657,2316520,173440,3576
+"Kunene, Namibia",106,2316520,83341,3578
+"Ohangwena, Namibia",1038,2316520,211709,3579
+"Province 1, Nepal",0,27985310,5080561,4394
+"Province 2, Nepal",0,27985310,5105539,4395
+"Province 3, Nepal",10216,27985310,6391586,4396
+"Province 4, Nepal",0,27985310,2974017,4397
+"Province 5, Nepal",0,27985310,4544868,4398
+"Province 6, Nepal",9827,27985310,1568119,4399
+"Province 7, Nepal",4718,27985310,2320620,4400
+"Amazonas, Peru",0,30565716,450367,3167
+"Ancash, Peru",0,30565716,1327287,3168
+"Apurimac, Peru",0,30565716,545476,3169
+"Arequipa, Peru",0,30565716,1455851,3170
+"Ayacucho, Peru",0,30565716,891734,3171
+"Cajamarca, Peru",0,30565716,1646731,3172
+"Cusco, Peru",0,30565716,1365902,3173
+"Huancavelica, Peru",0,30565716,661459,3174
+"Huanuco, Peru",0,30565716,889567,3175
+"Ica, Peru",0,30565716,817883,3176
+"Junin, Peru",0,30565716,1417192,3177
+"La Libertad, Peru",0,30565716,1704425,3178
+"Lambayeque, Peru",0,30565716,1044313,3179
+"Lima, Peru",0,30565716,9283918,3180
+"Loreto, Peru",1189,30565716,842802,3181
+"Madre de Dios, Peru",0,30565716,137797,3182
+"Moquegua, Peru",0,30565716,243229,3183
+"Pasco, Peru",0,30565716,296168,3184
+"Piura, Peru",2192,30565716,1626303,3185
+"Puno, Peru",0,30565716,2029895,3186
+"San Martin, Peru",6813,30565716,862444,3187
+"Tacna, Peru",0,30565716,410940,3188
+"Tumbes, Peru",0,30565716,222696,3189
+"Ucayali, Peru",3007,30565716,391339,3190
+"National Capital Region, Philippines",0,98481032,15170933,3355
+"CALABARZON, Philippines",0,98481032,12891947,3358
+"Central Luzon, Philippines",0,98481032,10064089,3345
+"MIMAROPA, Philippines",10064,98481032,3334114,3359
+"Cordillera Admin Region, Philippines",0,98481032,1869763,3356
+"Ilocos Region, Philippines",0,98481032,5249095,3343
+"Cagayan Valley, Philippines",0,98481032,3232891,3344
+"Bicol, Philippines",7692,98481032,5580406,3346
+"Western Visayas, Philippines",17590,98481032,8106274,3347
+"Central Visayas, Philippines",0,98481032,6900820,3348
+"Eastern Visayas, Philippines",6611,98481032,4106832,3349
+"Zamboanga Peninsula, Philippines",0,98481032,3592855,3350
+"ARMM, Philippines",64182,98481032,3429879,3357
+"Northern Mindanao, Philippines",0,98481032,4436342,3351
+"Davao, Philippines",0,98481032,4365119,3352
+"SOCCSKSARGEN, Philippines",0,98481032,3893706,3353
+"Caraga, Philippines",0,98481032,2255965,3354
+"Punjab, Pakistan",37166,181712595,105602589,3293
+"Balochistan, Pakistan",14290,181712595,9622181,3295
+"Islamabad, Pakistan",0,181712595,2492441,3296
+"Sindh, Pakistan",66577,181712595,41291521,3294
+"Khyber Pakhtunkhwa, Pakistan",0,181712595,22703863,3289
+"South, Rwanda",40941,11065151,2703664,3990
+"East, Rwanda",2066,11065151,2806911,3993
+"West, Rwanda",11487,11065151,2429884,3991
+"City of Kigali, Rwanda",1286,11065151,1303797,3989
+"North, Rwanda",8047,11065151,1820895,3992
+"Eastern, Sierra Leone",2870,6922079,1713177,3305
+"Northern, Sierra Leone",5053,6922079,2297029,3306
+"Southern, Sierra Leone",14049,6922079,1541642,3307
+"Western, Sierra Leone",0,6922079,1370231,3308
+"West, Senegal",0,14120320,5859551,5109
+"South, Senegal",21104,14120320,2462862,5108
+"Center, Senegal",9754,14120320,3367612,5106
+"North, Senegal",21287,14120320,2430295,5107
 "Manzini, Swaziland",,,,2355
 "Hhohho, Swaziland",,,,2354
 "Lubombo, Swaziland",,,,2357
 "Shiselweni, Swaziland",,,,2356
-"Greater Lomé area, Togo",0,7416802,2251682,3602
-"Kara, Togo",1111,7416802,808338,3603
-"Plateaux, Togo",0,7416802,1728874,3605
-"Savanes, Togo",35179,7416802,639810,3606
-"Maritime (excluding Greater Lomé area), Togo",0,7416802,1354953,3604
-"Centrale, Togo",0,7416802,633145,3601
-"Dushanbe, Tajikistan",0,8548651,1005242,2910
-"Sughd, Tajikistan",1872,8548651,2749589,2913
-"DRS, Tajikistan",0,8548651,1730091,2914
-"Khatlon, Tajikistan",0,8548651,2851646,2912
-"GBAO, Tajikistan",556,8548651,212083,2911
-"Aileu, Timor-Leste",0,1240977,44618,5146
-"Ainaro, Timor-Leste",721,1240977,66529,5147
-"Baucau, Timor-Leste",315,1240977,149259,5148
-"Bobonaro, Timor-Leste",152,1240977,102794,5149
-"Cova Lima, Timor-Leste",340,1240977,84941,5150
-"Dili, Timor-Leste",0,1240977,217506,5151
-"Ermera, Timor-Leste",378,1240977,126726,5152
-"Lautem, Timor-Leste",189,1240977,74994,5154
-"Liquica, Timor-Leste",0,1240977,77813,5153
-"Manatuto, Timor-Leste",503,1240977,54502,5156
-"Manufahi, Timor-Leste",508,1240977,59946,5155
-"Oecussi, Timor-Leste",514,1240977,95251,5157
-"Viqueque, Timor-Leste",178,1240977,86096,5158
-"Dodoma, Tanzania",50026,53879957,2781665,4197
-"Manyara, Tanzania",43196,53879957,1839434,4217
-"Arusha, Tanzania",0,53879957,2083735,4198
-"Kilimanjaro, Tanzania",6540,53879957,1846467,4199
-"Tanga, Tanzania",0,53879957,2614252,4200
-"Morogoro, Tanzania",0,53879957,2995529,4201
-"Pwani, Tanzania",0,53879957,1279128,4202
-"Dar es Salaam, Tanzania",0,53879957,5462682,4203
-"Lindi, Tanzania",0,53879957,1341757,4204
-"Mtwara, Tanzania",0,53879957,2079744,4205
-"Ruvuma, Tanzania",0,53879957,1758614,4206
-"Iringa, Tanzania",0,53879957,1291599,4207
-"Mbeya, Tanzania",0,53879957,3866416,4208
-"Singida, Tanzania",7557,53879957,1679700,4209
-"Tabora, Tanzania",0,53879957,2309890,4210
-"Rukwa, Tanzania",4052,53879957,1264401,4211
-"Kigoma, Tanzania",0,53879957,2045772,4212
-"Shinyanga, Tanzania",0,53879957,1716322,4213
-"Kagera, Tanzania",0,53879957,2756177,4214
-"Mwanza, Tanzania",88015,53879957,3076106,4215
-"Mara, Tanzania",7568,53879957,1872177,4216
-"Njombe, Tanzania",0,53879957,950141,4218
-"Katavi, Tanzania",0,53879957,447621,4219
-"Simiyu, Tanzania",3485,53879957,1492139,4220
-"Geita, Tanzania",4839,53879957,1674287,4221
-"Kaskazini Unguja, Tanzania",0,53879957,204348,4222
-"Mjini Magharibi, Tanzania",0,53879957,572766,4224
-"Kusini Unguja, Tanzania",0,53879957,138429,4223
-"Kaskazini Pemba, Tanzania",0,53879957,229903,4225
-"Kusini Pemba, Tanzania",0,53879957,208757,4226
-"Kampala, Uganda",0,40144870,2007025,5129
-"Central 1, Uganda",0,40144870,5292806,5127
-"Kigezi, Uganda",0,40144870,2369912,5131
-"Central 2, Uganda",0,40144870,4508947,5128
-"Busoga, Uganda",0,40144870,3770827,5126
-"Bukedi, Uganda",1726,40144870,2245477,5124
-"Bugishu, Uganda",2294,40144870,2134462,5123
-"Teso, Uganda",0,40144870,1969219,5133
-"Karamoja, Uganda",96033,40144870,962034,5130
-"Lango, Uganda",7623,40144870,2136580,5132
-"Acholi, Uganda",40339,40144870,1956644,5121
-"West Nile, Uganda",5359,40144870,2576555,5135
-"Bunyoro, Uganda",1722,40144870,2232409,5125
-"Tooro, Uganda",1337,40144870,2870799,5134
-"Ankole, Uganda",0,40144870,3111174,5122
-"Lusaka, Zambia",766,16100587,2958668,3611
-"Muchinga, Zambia",12030,16100587,891443,3612
-"Copperbelt, Zambia",1056,16100587,2482992,3608
-"Western, Zambia",48593,16100587,1069275,3616
-"Luapula, Zambia",1333,16100587,1278976,3610
-"Southern, Zambia",1908,16100587,1955438,3615
-"North Western, Zambia",0,16100587,765563,3613
-"Eastern, Zambia",15488,16100587,1926110,3609
-"Central, Zambia",1249,16100587,1488901,3607
-"Northern, Zambia",9651,16100587,1283221,3614
-"Mashonaland East, Zimbabwe",2084,15777451,1742515,4087
-"Masvingo, Zimbabwe",8512,15777451,1863218,4092
-"Harare Chitungwiza, Zimbabwe",0,15777451,2330191,4093
-"Mashonaland West, Zimbabwe",7334,15777451,1958581,4088
-"Bulawayo, Zimbabwe",0,15777451,812402,4094
-"Mashonaland Central, Zimbabwe",0,15777451,1361917,4086
-"Manicaland, Zimbabwe",0,15777451,2222115,4085
-"Midlands, Zimbabwe",3379,15777451,1903195,4091
-"Matabeleland North, Zimbabwe",3129,15777451,789429,4089
-"Matabeleland South, Zimbabwe",0,15777451,793888,4090
+"Greater Lomé area, Togo",0,7042948,2138183,3602
+"Kara, Togo",1055,7042948,767593,3603
+"Plateaux, Togo",0,7042948,1641728,3605
+"Savanes, Togo",35479,7042948,607560,3606
+"Maritime (excluding Greater Lomé area), Togo",0,7042948,1286654,3604
+"Centrale, Togo",0,7042948,601230,3601
+"Dushanbe, Tajikistan",0,8177809,961635,2910
+"Sughd, Tajikistan",3581,8177809,2630311,2913
+"DRS, Tajikistan",0,8177809,1655039,2914
+"Khatlon, Tajikistan",0,8177809,2727941,2912
+"GBAO, Tajikistan",532,8177809,202883,2911
+"Aileu, Timor-Leste",0,1184366,42583,5146
+"Ainaro, Timor-Leste",688,1184366,63494,5147
+"Baucau, Timor-Leste",301,1184366,142450,5148
+"Bobonaro, Timor-Leste",145,1184366,98105,5149
+"Cova Lima, Timor-Leste",325,1184366,81066,5150
+"Dili, Timor-Leste",0,1184366,207584,5151
+"Ermera, Timor-Leste",361,1184366,120945,5152
+"Lautem, Timor-Leste",181,1184366,71573,5154
+"Liquica, Timor-Leste",0,1184366,74264,5153
+"Manatuto, Timor-Leste",528,1184366,52016,5156
+"Manufahi, Timor-Leste",485,1184366,57212,5155
+"Oecussi, Timor-Leste",582,1184366,90906,5157
+"Viqueque, Timor-Leste",170,1184366,82169,5158
+"Dodoma, Tanzania",47015,50636595,2614220,4197
+"Manyara, Tanzania",56708,50636595,1728707,4217
+"Arusha, Tanzania",11310,50636595,1958303,4198
+"Kilimanjaro, Tanzania",6146,50636595,1735317,4199
+"Tanga, Tanzania",0,50636595,2456884,4200
+"Morogoro, Tanzania",0,50636595,2815210,4201
+"Pwani, Tanzania",0,50636595,1202129,4202
+"Dar es Salaam, Tanzania",0,50636595,5133850,4203
+"Lindi, Tanzania",0,50636595,1260989,4204
+"Mtwara, Tanzania",0,50636595,1954551,4205
+"Ruvuma, Tanzania",0,50636595,1652753,4206
+"Iringa, Tanzania",0,50636595,1213850,4207
+"Mbeya, Tanzania",0,50636595,3633673,4208
+"Singida, Tanzania",7102,50636595,1578589,4209
+"Tabora, Tanzania",0,50636595,2170844,4210
+"Rukwa, Tanzania",3808,50636595,1188289,4211
+"Kigoma, Tanzania",0,50636595,1922624,4212
+"Shinyanga, Tanzania",0,50636595,1613006,4213
+"Kagera, Tanzania",0,50636595,2590266,4214
+"Mwanza, Tanzania",82716,50636595,2890937,4215
+"Mara, Tanzania",7113,50636595,1759479,4216
+"Njombe, Tanzania",0,50636595,892946,4218
+"Katavi, Tanzania",0,50636595,420676,4219
+"Simiyu, Tanzania",3275,50636595,1402318,4220
+"Geita, Tanzania",4547,50636595,1573502,4221
+"Kaskazini Unguja, Tanzania",0,50636595,192047,4222
+"Mjini Magharibi, Tanzania",0,50636595,538288,4224
+"Kusini Unguja, Tanzania",0,50636595,130096,4223
+"Kaskazini Pemba, Tanzania",0,50636595,216063,4225
+"Kusini Pemba, Tanzania",0,50636595,196190,4226
+"Kampala, Uganda",0,37553726,1877482,5129
+"Central 1, Uganda",0,37553726,4951183,5127
+"Kigezi, Uganda",0,37553726,2216947,5131
+"Central 2, Uganda",0,37553726,4217918,5128
+"Busoga, Uganda",0,37553726,3527439,5126
+"Bukedi, Uganda",1615,37553726,2100543,5124
+"Bugishu, Uganda",2146,37553726,1996693,5123
+"Teso, Uganda",0,37553726,1842117,5133
+"Karamoja, Uganda",83223,37553726,899939,5130
+"Lango, Uganda",7131,37553726,1998675,5132
+"Acholi, Uganda",35619,37553726,1830353,5121
+"West Nile, Uganda",5013,37553726,2410252,5135
+"Bunyoro, Uganda",1610,37553726,2088319,5125
+"Tooro, Uganda",1251,37553726,2685503,5134
+"Ankole, Uganda",0,37553726,2910364,5122
+"Lusaka, Zambia",721,15153210,2784577,3611
+"Muchinga, Zambia",11323,15153210,838989,3612
+"Copperbelt, Zambia",994,15153210,2336890,3608
+"Western, Zambia",46665,15153210,1006357,3616
+"Luapula, Zambia",1255,15153210,1203720,3610
+"Southern, Zambia",1796,15153210,1840378,3615
+"North Western, Zambia",0,15153210,720516,3613
+"Eastern, Zambia",14577,15153210,1812776,3609
+"Central, Zambia",1175,15153210,1401292,3607
+"Northern, Zambia",10489,15153210,1207715,3614
+"Mashonaland East, Zimbabwe",1989,15054506,1662671,4087
+"Masvingo, Zimbabwe",8122,15054506,1777843,4092
+"Harare Chitungwiza, Zimbabwe",0,15054506,2223418,4093
+"Mashonaland West, Zimbabwe",6998,15054506,1868836,4088
+"Bulawayo, Zimbabwe",0,15054506,775176,4094
+"Mashonaland Central, Zimbabwe",0,15054506,1299512,4086
+"Manicaland, Zimbabwe",0,15054506,2120295,4085
+"Midlands, Zimbabwe",3224,15054506,1815988,4091
+"Matabeleland North, Zimbabwe",2985,15054506,753257,4089
+"Matabeleland South, Zimbabwe",0,15054506,757511,4090
